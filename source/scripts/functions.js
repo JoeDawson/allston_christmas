@@ -258,6 +258,7 @@ var pageFunctions = {
     },
     barrierCount: 0,
     score: 0,
+    gameStatus: {"barrierCount": 0, "score": 0, "crashCount": 0},
     handlePass: function(gap) {
       var self=this;
       var score = 100;
