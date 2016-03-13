@@ -276,21 +276,15 @@ var pageFunctions = {
       }, 300);
 
       if (!barrier.classList.contains('counted')) {
-          self.barrierCount++;
-          self.score = self.score + score;
+          self.gameStatus.barrierCount++;
+          self.gameStatus.score = self.gameStatus.score + score;
           barrier.classList.add('counted');
 
           document.getElementById('score').play();
 
-          bridgeCounter.innerHTML = 'Bridges passed ' + self.barrierCount;
-
-          console.log(self.score);
-
-          scoreCounter.innerHTML = 'Score ' + self.score;
+          bridgeCounter.innerHTML = 'Bridges passed ' + self.gameStatus.barrierCount;
+          scoreCounter.innerHTML = 'Score ' + self.gameStatus.score;
       }
-
-
-
     },
     paused: false,
     pauseGame:function() {
