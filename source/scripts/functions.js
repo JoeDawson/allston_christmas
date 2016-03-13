@@ -100,35 +100,28 @@ var pageFunctions = {
     },
     spawner: function(state) {
       var self=this;
-      console.log('state', state);
 
       // if (state === true) {
       var interval = (4 - self.randomizeInterval()) * 1000;
 
       if(state){
               timer = setInterval(function(){
-              console.log('timer');
               self.makeBarrier(true);
             },interval);
         }else{
-          console.log('timer stopped');
           clearInterval(timer);
         }
     },
     animationListener: function (anim) {
       var self=this;
-      console.log('animation listener');
       var gameBoard = document.getElementById('game-board');
       // var anim = document.getElementById("barrier-two");
       anim.addEventListener("animationend",function(e){
-          console.log("log at end of monkey animation");
           gameBoard.removeChild(anim);
           // self.spawner();
       },false);
       anim.addEventListener("animationstart",function(e){
-          console.log("begin monkey animation");
           var barrierPos = self.getPosition(anim);
-          console.log('barrierPos', barrierPos);
           // self.spawner(true);
       },false);
     },
@@ -149,23 +142,18 @@ var pageFunctions = {
         var commandKey = event.metaKey;
 
         if (keyPress === 38) {
-          console.log('up');
           self.handleTruckmove('up', shiftKey, commandKey);
         }
         if (keyPress === 40) {
-          console.log('down');
           self.handleTruckmove('down', shiftKey, commandKey);
         }
         if (keyPress === 32) {
-          console.log('pause');
           self.pauseGame();
         }
       }
     },
     handleTruckmove: function(direction, shiftKey, metaKey) {
       var self=this;
-
-
       var gameSquare = document.getElementById('game-square');
       var gameBoard = document.getElementById('game-board');
       var startingPosition = 310;
