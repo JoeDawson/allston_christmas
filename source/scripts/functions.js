@@ -61,10 +61,27 @@ var pageFunctions = {
       var background = self.patternRandomizer();
       var height = self.randomizeGapSize();
 
+      console.log('counter', self.gameStatus.barrierCount >= 10,  self.gameStatus.barrierCount < 15)
+
+      if (self.gameStatus.barrierCount <= 5) {
+        var animationDur = '3s'
+      } else if (self.gameStatus.barrierCount > 5 && self.gameStatus.barrierCount < 10) {
+        var animationDur = '2.5s'
+      } else if (self.gameStatus.barrierCount >= 10 && self.gameStatus.barrierCount < 15) {
+        var animationDur = '2s'
+      } else if (self.gameStatus.barrierCount >= 15 && self.gameStatus.barrierCount < 20) {
+          var animationDur = '1.5s'
+      } else if (self.gameStatus.barrierCount < 20) {
+          var animationDur = '1s'
+      }
+      // console.log('count', self.barrierCount);
+
+      console.log('animationDur', animationDur);
+
       var barrier = document.createElement('DIV');
       barrier.classList.add("barrier");
       barrier.style.backgroundImage = 'url(' + background + ')';
-      barrier.style.animationDuration = "2.5s"
+      barrier.style.animationDuration = animationDur;
 
       var gap = document.createElement('DIV');
       gap.classList.add('barrier-gap');
