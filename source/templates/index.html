@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="no-js" lang="">
+    @@include('../html_partials/common/head.html')
+    <body>
+      <div id="game-board" class="game-board">
+
+        <div id="game-square" class="game-square">
+            <h2 class="score-box" id="score-box"></h2>
+        </div>
+<!--
+       <div id="barrier-test" class="barrier barrier-test">
+          <div class="barrier-gap">
+            <div class="score-box" id="barrier-score">
+              100
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+
+      <input type="button" id="play" value="Play">
+
+      <div id="bridge-counter">
+
+      </div>
+
+      <div id="score-counter">
+
+      </div>
+
+
+
+      <audio id="score">
+          <source src="sounds/score.mp3" type="audio/mpeg">
+          Your browser does not support the audio tag.
+        </audio>
+
+        <audio id="crash">
+            <source src="sounds/crash.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+          </audio>
+
+        <!-- <audio id="truck" autoplay loop>
+            <source src="sounds/truck_sound.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+          </audio>
+
+          <audio id="truck" autoplay loop>
+              <source src="sounds/Chibi Ninja.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.
+            </audio> -->
+
+      <!-- <audio controls autoplay loop>
+        <source src="sounds/truck_sound.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio> -->
+
+
+<!-- <audio id="demo" src="sounds/truck_sound.mp3" preload autoplay loop ></audio> -->
+
+<div>
+  <!-- <button onclick="document.getElementById('demo').play()">Play the Audio</button>
+  <button onclick="document.getElementById('demo').pause()">Pause the Audio</button>
+  <button onclick="document.getElementById('demo').volume+=0.1">Increase Volume</button>
+  <button onclick="document.getElementById('demo').volume-=0.1">Decrease Volume</button> -->
+</div>
+
+
+    </body>
+    @@include('../html_partials/common/js_links.html')
+    <script>
+    (function() {
+      "use strict";
+      pageFunctions.intialize();
+      pageFunctions.initializeGame();
+    })();
+    </script>
+</html>

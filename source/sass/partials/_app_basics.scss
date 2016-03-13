@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+
+}
+body {
+  font-family:'Gamer';
+}
+.one-column {
+  width:100%;
+}
+.spacer-1 {
+  height:rem(10);
+  width:100%;
+}
+.spacer-2 {
+  height:rem(20);
+  width:100%;
+}
+.spacer-3 {
+  height:rem(30);
+  width:100%;
+}
+.spacer-4 {
+  height:rem(40);
+  width:100%;
+}
+.flex-centered {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.centered-object {
+  margin:0 auto;
+  display:block
+}
+.game-board {
+  width:rem(1000);
+  height:rem(600);
+  border:1px solid red;
+  margin:rem(30) auto;
+  position:relative;
+  // overflow:hidden
+    &:before {
+      display:block;
+      content:'';
+      width:1000px;
+      height:600px;
+      position: absolute;
+      top:0;
+      left:0;
+      z-index:10;
+      animation-name: none;
+    }
+}
+.game-board--active {
+  &:before {
+    animation-timing-function: linear;
+    animation-duration: .2s;
+    animation-iteration-count: 2;
+    animation-name: crash;
+    background-color:red;
+  }
+}
+.game-square {
+  width:60px;
+  height:45px;
+  // border:1px solid red;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:100px;
+  margin:auto 0;
+  z-index: 1;
+  background-image: url('../siteart/truck.svg');
+  background-size: auto 45px;
+  background-repeat: no-repeat;
+
+  // transform: translatex(0);
+}
+.game-square--animate {
+  transition: transform .25s cubic-bezier(.17,.67,.37,1.39);
+  // border:1px solid blue;
+}
+.barrier {
+  height:600px;
+  width:80px;
+  background-color:$med;
+  position:absolute;
+  top:0;
+  right:-80px;
+  animation-timing-function: linear;
+  animation-duration: 2.5s;
+  animation-iteration-count: 1;
+  animation-name: example;
+  background-image:url('/siteart/brick_tiles_1.svg');
+  background-size:80px;
+}
+
+
+
+.barrier-test {
+  height:600px;
+  width:80px;
+  background-color:$med;
+  position:absolute;
+  top:0;
+  right:900px;
+  animation-name: none;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+    .barrier-gap {
+      top:240px;
+
+    }
+}
+
+.barrier-crash {
+  // background-color: red;
+  // border:3px solid red;
+}
+.barrier-pass {
+  // border:3px solid green;
+}
+.barrier-gap {
+  height:80px;
+  width:80px;
+  background-color: $white;
+  position: relative;
+    &:before {
+      content: "";
+      display:block;
+      position: absolute;
+      top:-20px;
+      height:20px;
+      width:80px;
+      background-image:url('/siteart/barrier.png');
+    }
+}
+
+@keyframes example {
+  0% { transform: translatex(0);}
+  100% { transform: translatex(-1080px); }
+}
+@keyframes exampleTwo {
+   0% { transform: translatex(0); }
+    30% { transform: translatex(0); }
+   100% { transform: translatex(-1080px); }
+}
+@keyframes wiggle {
+   0% { transform: translatex(0); }
+    100% { transform: translatex(20px); }
+}
+@keyframes crash {
+  0% { opacity: 0; }
+   100% { opacity:1; }
+}
+.score-box {
+  text-align: center;
+  position:relative;
+  margin:0 auto;
+  z-index:10;
+  height:20px;
+  width:70px;
+  transform:translateY(30px);
+  opacity:0;
+  font-size:rem(18);
+  top:-30px
+}
+.score-box--active {
+    transform:translateY(-10px);
+    opacity:1;
+    transition: transform .2s cubic-bezier(.52,.4,.14,1.33), opacity .1s;
+}
+.paused{
+    -webkit-animation-play-state:paused;
+    -moz-animation-play-state:paused;
+    -o-animation-play-state:paused;
+    animation-play-state:paused;
+}
+.counted {
+}
