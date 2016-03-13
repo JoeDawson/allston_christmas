@@ -18,8 +18,6 @@ var pageFunctions = {
         self.spawner(true);
         self.barrierStatus();
       });
-
-
     },
     randomizeGap: function() {
       var self=this;
