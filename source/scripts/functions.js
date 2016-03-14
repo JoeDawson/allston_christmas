@@ -162,10 +162,9 @@ var pageFunctions = {
     getPosition: function (element) {
       var elementPosition = element.getBoundingClientRect();
 
-      // console.log('top', elementPosition.top, 'right', elementPosition.right, 'bottom', elementPosition.bottom, 'left', elementPosition.left);
       return elementPosition;
     },
-    handleKeyDown: function () {
+    handleKeyboardInput: function () {
         var self=this;
         document.onkeydown = function(e) {
           var keyPress=e.keyCode
@@ -185,7 +184,34 @@ var pageFunctions = {
           self.pauseGame();
         }
       }
+
+      var cheatCodeArr = [];
+
+      document.onkeyup = function(e) {
+        var keyUp=e.keyCode
+          ? event.keyCode
+          : event.charCode;
+
+      if (keyUp === 83) {
+        cheatCodeArr.push('s');
+      }
+      else if (keyUp === 84 ) {
+        cheatCodeArr.push('t');
+      }
+      else if (keyUp === 73 ) {
+        cheatCodeArr.push('i');
+      }
+      else if (keyUp === 71 ) {
+        cheatCodeArr.push('g');
+
+      }
+      var cheatCode = cheatCodeArr.join('');
+      if(cheatCode.match(/stig/gi)) {
+        self.barrierStatus(true);
+      }
+    }
     },
+
     handleTruckmove: function(direction, shiftKey, metaKey) {
       var self=this;
       var gameSquare = document.getElementById('game-square');
@@ -221,12 +247,9 @@ var pageFunctions = {
       gameSquare.classList.add('game-square--animate');
       gameSquare.style.transform = "translateY(" + move + "px)";
     },
-    barrierStatus: function() {
+    barrierStatus: function(cheat) {
       var self=this;
       var truck = document.getElementById('game-square');
-
-      console.log('barrier status');
-
       // ADD THIS BACK TO MAKE IT WORK WITH INTERVALS
 
       var myVar = setInterval(function(){ myTimer() }, 100);
@@ -234,9 +257,18 @@ var pageFunctions = {
       function myTimer() {
         var barrierNodes = document.getElementsByClassName('barrier');
 
-
         if (barrierNodes) {
         var nodeArray = Array.prototype.slice.call(barrierNodes);
+
+        if (cheat) {
+          var cheatGap = nodeArray[0].childNodes[0];
+          var gapSize = (cheatGap.clientHeight - 45);
+          truck.style.top = cheatGap.style.top;
+          truck.style.bottom  = 'auto';
+          truck.style.transform = "translateY(" + gapSize + "px)";
+          document.getElementById('stig-mode').innerHTML = "Stig mode engaged!";
+          truck.classList.add('truck-stig-mode')
+        }
 
         nodeArray.forEach(function(el) {
           var truckPos = self.getPosition(truck);
