@@ -81,6 +81,9 @@ body {
   transition: transform .25s cubic-bezier(.17,.67,.37,1.39);
   // border:1px solid blue;
 }
+.truck-stig-mode {
+  transition: transform 1s cubic-bezier(.17,.67,.37,1.39);
+}
 .barrier {
   height:600px;
   width:80px;
@@ -89,13 +92,12 @@ body {
   top:0;
   right:-80px;
   animation-timing-function: linear;
-  animation-duration: 2.5s;
+  // animation-duration: 2.5s;
   animation-iteration-count: 1;
   animation-name: example;
   background-image:url('/siteart/brick_tiles_1.svg');
   background-size:80px;
 }
-
 
 
 .barrier-test {
@@ -164,7 +166,8 @@ body {
   transform:translateY(30px);
   opacity:0;
   font-size:rem(18);
-  top:-30px
+  top:-30px;
+  color:#FBB117;
 }
 .score-box--active {
     transform:translateY(-10px);
