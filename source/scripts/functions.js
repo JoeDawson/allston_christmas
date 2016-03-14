@@ -302,22 +302,33 @@ var pageFunctions = {
       var rando = Math.floor((Math.random() * 3) + 1);
       return '/siteart/' + backgrounds[rando - 1];
     },
-    handleCrash: function() {
-        document.getElementById('crash').play();
+    handleCrash: function(barrier) {
+        var self=this;
         var gameBoard = document.getElementById('game-board');
-        gameBoard.classList.add('game-board--active');
-        setTimeout(function(){
-           gameBoard.classList.remove('game-board--active');
-         }, 200);
+        var crashCountBox = document.getElementById("crash-counter");
+        var crashCount = self.gameStatus.crashCount;
+
+        if (!barrier.classList.contains('counted')) {
+            self.gameStatus.crashCount++;
+            barrier.classList.add('counted');
+
+            document.getElementById('crash').play();
+
+            gameBoard.classList.add('game-board--active');
+            setTimeout(function(){
+               gameBoard.classList.remove('game-board--active');
+             }, 200);
+
+            crashCountBox.innerHTML = 'Bridges hit ' + self.gameStatus.crashCount;
+        }
+
     },
-    barrierCount: 0,
-    score: 0,
     gameStatus: {"barrierCount": 0, "score": 0, "crashCount": 0},
-    handlePass: function(gap) {
+    handlePass: function(barrier) {
       var self=this;
-      var score = 100;
+      var score = self.adjustDifficultyLevel().score;
       var scoreBox = document.getElementById('score-box');
-      var barrier = gap.parentNode;
+      // var barrier = gap.parentNode;
       var bridgeCounter = document.getElementById('bridge-counter');
       var scoreCounter = document.getElementById('score-counter');
 
