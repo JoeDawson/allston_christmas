@@ -29,13 +29,11 @@ var pageFunctions = {
     },
     randomizeInterval: function() {
       var self=this;
-      var rando = Math.random() * (2.5-1) + 1;
-
-      // console.log(rando);
+      var rando = Math.floor((Math.random() * 200) + 1);
       return rando;
     },
-    randomizeGapSize: function() {
-      var rando = Math.floor((Math.random() * 60) + 45);
+    randomizeGapSize: function(large, small) {
+      var rando = Math.floor((Math.random() * large) + small);
       return rando;
     },
     setSquareLocation:function () {
