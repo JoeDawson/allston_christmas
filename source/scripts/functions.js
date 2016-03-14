@@ -14,10 +14,12 @@ var pageFunctions = {
       var self=this;
 
       document.getElementById('play').addEventListener('click', function() {
-        self.handleKeyDown();
+        console.log('click');
+        self.handleKeyboardInput();
         self.spawner(true);
-        self.barrierStatus();
+        self.barrierStatus(false);
       });
+
     },
     randomizeGap: function() {
       var self=this;
