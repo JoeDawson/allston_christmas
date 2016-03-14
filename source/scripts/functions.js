@@ -284,11 +284,11 @@ var pageFunctions = {
 
           if (barrierPos.left <= truckPos.right && !alignedVertically) {
             el.classList.add('barrier-crash');
-            self.handleCrash();
+            self.handleCrash(gap.parentNode);
           }
           if (barrierPos.right <= truckPos.left && alignedVertically && !el.classList.contains('barrier-crash')) {
             el.classList.add('barrier-pass');
-            self.handlePass(gap);
+            self.handlePass(gap.parentNode);
           }
         });
         }
