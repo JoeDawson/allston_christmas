@@ -52,62 +52,96 @@ var pageFunctions = {
         gapTwo.style.top = randomPosition + '%';
       }, 8000);
     },
+    adjustDifficultyLevel: function() {
+      var self=this;
+
+      var difficultyLevel = {};
+      var rando = self.randomizeGapSize(200, 1);
+
+      if (self.gameStatus.barrierCount <= 5) {
+        difficultyLevel.animationDur = '3s';
+        difficultyLevel.gapHeight = 45 + self.randomizeGapSize(15, 25);
+        difficultyLevel.score = 50;
+        difficultyLevel.interval = 2500 - rando;
+      }
+      else if (self.gameStatus.barrierCount > 5 && self.gameStatus.barrierCount < 10) {
+        difficultyLevel.animationDur = '2.5s';
+        difficultyLevel.gapHeight = 45 + self.randomizeGapSize(15, 20);
+        difficultyLevel.score = 100;
+        difficultyLevel.interval = 2000 - rando;
+      }
+      else if (self.gameStatus.barrierCount >= 10 && self.gameStatus.barrierCount < 20) {
+        difficultyLevel.animationDur = '2s';
+        difficultyLevel.gapHeight = 40 + self.randomizeGapSize(10, 15);
+        difficultyLevel.score = 150;
+        difficultyLevel.interval = 1600 - rando;
+      }
+      else if (self.gameStatus.barrierCount >= 20 && self.gameStatus.barrierCount < 20) {
+        difficultyLevel.animationDur = '1.5s';
+        difficultyLevel.gapHeight = 40 + self.randomizeGapSize(5, 10);
+        difficultyLevel.score = 250;
+        difficultyLevel.interval = 900 - rando;
+      }
+      else if (self.gameStatus.barrierCount >= 20) {
+        console.log('20 +');
+        difficultyLevel.animationDur = '1.3s';
+        difficultyLevel.gapHeight = 40 + self.randomizeGapSize(5, 8);
+        difficultyLevel.score = 500;
+        difficultyLevel.interval = 700 - rando;
+      }
+
+      console.log(difficultyLevel);
+
+      return difficultyLevel;
+
+    },
     makeBarrier: function() {
       var self=this;
 
       var gameBoard = document.getElementById('game-board');
 
+      var difficultyLevel = self.adjustDifficultyLevel();
+
       var randomPosition = self.randomizeGap();
       var background = self.patternRandomizer();
-      var height = self.randomizeGapSize();
+      var height = difficultyLevel.gapHeight;
 
-      console.log('counter', self.gameStatus.barrierCount >= 10,  self.gameStatus.barrierCount < 15)
+      var animationDur = difficultyLevel.animationDur;
 
-      if (self.gameStatus.barrierCount <= 5) {
-        var animationDur = '3s'
-      } else if (self.gameStatus.barrierCount > 5 && self.gameStatus.barrierCount < 10) {
-        var animationDur = '2.5s'
-      } else if (self.gameStatus.barrierCount >= 10 && self.gameStatus.barrierCount < 15) {
-        var animationDur = '2s'
-      } else if (self.gameStatus.barrierCount >= 15 && self.gameStatus.barrierCount < 20) {
-          var animationDur = '1.5s'
-      } else if (self.gameStatus.barrierCount < 20) {
-          var animationDur = '1s'
-      }
-      // console.log('count', self.barrierCount);
-
-      console.log('animationDur', animationDur);
 
       var barrier = document.createElement('DIV');
       barrier.classList.add("barrier");
       barrier.style.backgroundImage = 'url(' + background + ')';
       barrier.style.animationDuration = animationDur;
 
+      if (self.gameStatus.barrierCount === 6 || self.gameStatus.barrierCount === 11 || self.gameStatus.barrierCount === 16 || self.gameStatus.barrierCount === 20) {
+        self.spawner(false);
+        self.spawner(true);
+      }
+
       var gap = document.createElement('DIV');
       gap.classList.add('barrier-gap');
       gap.style.top = randomPosition + '%';
       gap.style.height = height + 'px';
-
-      var score = document.createElement("H2");
-      score.classList.add('score-box');
-      score.innerHTML = '100';
-
-      gap.appendChild(score);
       barrier.appendChild(gap);
       gameBoard.appendChild(barrier);
 
       self.animationListener(barrier);
+      self.adjustDifficultyLevel();
     },
     spawner: function(state) {
       var self=this;
 
+    console.log(state);
+
       // if (state === true) {
-      var interval = (4 - self.randomizeInterval()) * 1000;
+      // var interval = (4 - self.randomizeInterval()) * 1000;
+      // doThing();
 
       if(state){
-              timer = setInterval(function(){
-              self.makeBarrier(true);
-            },interval);
+        timer = setInterval(function(){
+          self.makeBarrier(true);
+        },self.adjustDifficultyLevel().interval);
         }else{
           clearInterval(timer);
         }
