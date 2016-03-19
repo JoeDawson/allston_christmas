@@ -1,0 +1,34 @@
+<!doctype html>
+<html class="no-js" lang="">
+    @@include('../html_partials/common/head.html')
+    <body>
+      <div id="game-board" class="game-board">
+
+
+        <ul class="possessions">
+          <li></li>
+
+        </ul>
+
+      </div>
+
+      <input type="button" id="play" value="Play">
+
+      <input type="button" id="cheat" value="Cheat">
+
+
+<div>
+
+</div>
+
+
+    </body>
+    @@include('../html_partials/common/js_links.html')
+    <script>
+    (function() {
+      "use strict";
+      pageFunctionsStreet.intialize();
+      pageFunctionsStreet.initializeGame();
+    })();
+    </script>
+</html>
