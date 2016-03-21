@@ -195,4 +195,15 @@ var pageFunctionsStreet = {
         document.getElementById('swipe').play();
       }, 600);
     },
+    handleAnimationEnd: function(anim) {
+      var self=this;
+
+      var pedChannel = document.querySelector("#ped-channel");
+      anim.addEventListener("animationend",function(e){
+          pedChannel.removeChild(anim);
+
+          console.log('animation ended!');
+      },false);
+
+    },
   };
