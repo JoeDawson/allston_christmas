@@ -206,4 +206,30 @@ var pageFunctionsStreet = {
       },false);
 
     },
+    handlePunch: function() {
+      var self=this;
+
+      console.log('punch');
+
+      var suspectArr = [].slice.call(document.querySelectorAll("div.criminal, div.fake-criminal"));
+      var gameSquare = document.querySelector('#mover');
+
+      // console.log('suspectArr', suspectArr);
+      // console.log('mover', mover);
+
+      var gameSquarePosition = gameSquare.getBoundingClientRect();
+
+       var punchedGuy = suspectArr.filter(function (el) {
+        suspectPosition = el.getBoundingClientRect();
+
+        var leftAlign = gameSquarePosition.right > suspectPosition.left && gameSquarePosition.right < suspectPosition.right;
+
+        var rightAlign = gameSquarePosition.left < suspectPosition.right && gameSquarePosition.right > suspectPosition.right;
+
+        if (leftAlign || rightAlign) {
+          el.classList.add('punched');
+          document.getElementById('punch').play();
+        }
+
+      });
   };
