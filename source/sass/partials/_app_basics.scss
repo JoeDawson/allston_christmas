@@ -182,3 +182,90 @@ body {
 }
 .counted {
 }
+.possessions {
+  width:100%;
+  position: absolute;
+  bottom:190px;
+  display:flex;
+  list-style-type: none;
+  border:1px solid blue;
+  margin:0;
+  justify-content: space-between;
+  padding:0 60px;
+}
+.item-container {
+  width:40px;
+  // margin:0 10px;
+  border:1px solid red;
+  height:80px;
+  display:block;
+}
+.item {
+  width:100%;
+  height:60px;
+  background-color:green;
+}
+.pedestrian-channel {
+  width:100%;
+  height:180px;
+  position: absolute;
+  bottom:70px;
+  // border:1px solid orange;
+  overflow: hidden;
+}
+.pedestrian {
+  height:80px;
+  width:50px;
+  background-color:$med;
+  position:absolute;
+  bottom:0;
+  right:800px;
+  animation-timing-function: linear;
+  // animation-duration: 5.5s;
+  animation-iteration-count: 1;
+  animation-name: example;
+  background-color:red;
+  background-size:80px;
+  z-index:3;
+}
+.pedestrian-right {
+  right:-80px;
+  animation-name: example;
+  bottom:20px;
+}
+.pedestrian-left {
+  left:-80px;
+  animation-name: example-left;
+  bottom:40px;
+}
+.criminal {
+  // background-color: black;
+}
+.fake-criminal {
+  // background-color: orange;
+}
+.dodge-up {
+  // transform: translateY(-40px);
+  transition: bottom .4s;
+  // transition-delay: 2s;
+  // background-color: $dark;
+  bottom:100px;
+  border:4px solid red;
+  z-index:1;
+}
+.mover {
+  height:80px;
+  width:50px;
+  left:475px;
+  // animation-name: example-left;
+  bottom:80px;
+  background-color:blue;
+  position: absolute;
+  z-index:2;
+}
+.target-item {
+  // border:4px solid red;
+}
+.punched {
+  border:5px solid yellow;
+}
