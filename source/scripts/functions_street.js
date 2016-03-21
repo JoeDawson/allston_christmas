@@ -59,4 +59,26 @@ var pageFunctionsStreet = {
       });
       return gameState;
     },
+    setGameBoard: function() {
+      var self=this;
+      function thingAdder() {
+        // find which squares are empty
+        var emptySquares = self.gameBoardState(false);
+        if (emptySquares.length !== 0) {
+        // randomly choose an empty square
+          var rando = self.randomizer(emptySquares.length, 0);
+
+          var placeItem = emptySquares[rando];
+
+          // add item to that square
+          var item = document.createElement('div');
+          item.classList.add('item');
+          placeItem.appendChild(item);
+        } else {
+          console.log('full!');
+        }
+      }
+      addItems = setInterval(thingAdder, 3500);
+
+    },
   };
