@@ -232,4 +232,23 @@ var pageFunctionsStreet = {
         }
 
       });
+
+
+
+    },
+    randomizer: function(large, small) {
+      var rando = Math.floor((Math.random() * large) + small);
+      return rando;
+    },
+    randomizerDecimal: function(large, small) {
+      // var rando = Math.floor(Math.random() * large);
+      var rando = Math.random() * (large - small) + small;
+      return rando;
+    },
+    randomizerBloolean: function() {
+      var rando = Math.floor((Math.random() * 2) + 1);
+      // return (rando === 1);
+      return rando === 1;
+
+    },
   };
