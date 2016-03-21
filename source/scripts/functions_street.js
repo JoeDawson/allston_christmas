@@ -10,7 +10,16 @@ var pageFunctionsStreet = {
     intializeWatchers: function () {
     },
     initializeGame: function() {
+      var self=this;
+
       console.log('game');
+      document.getElementById('play').addEventListener('click', function() {
+        self.pedestrianSpawner();
+        self.setGameBoard();
+        self.handleKeyboardInput();
+      });
+
+    },
     handleKeyboardInput: function () {
       console.log('keys');
 
