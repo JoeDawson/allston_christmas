@@ -151,4 +151,39 @@ var pageFunctionsStreet = {
           el.classList.add('dodge-up');
        }, switchPoint);
     },
+    handleMove: function(direction, shiftKey, metaKey) {
+
+      var gameBoard = document.getElementById('game-board');
+      var gameSquare = document.getElementById('mover');
+
+      console.log(direction);
+
+      if (shiftKey) {
+        var moveIncrement = 80;
+      } else if (metaKey) {
+        var moveIncrement = 10;
+      }
+      else {
+        var moveIncrement = 35;
+      }
+
+      var startingPosition = 475;
+
+      var gameSquarePosition = gameSquare.getBoundingClientRect();
+      var gameBoardPosition = gameBoard.getBoundingClientRect();
+
+      // console.log('game bound', gameBoardPosition.left);
+      var offset = (gameSquarePosition.left -  gameBoardPosition.left) - 475;
+
+      console.log(gameSquarePosition.left -  gameBoardPosition.left, 475);
+
+      gameSquare.classList.add('game-square--animate');
+
+      if (direction === "right") {
+        gameSquare.style.transform = 'translateX(' + (offset + moveIncrement) + 'px)';
+      }
+      if (direction === "left") {
+        gameSquare.style.transform = 'translateX(' + (offset - moveIncrement) + 'px)';
+      }
+    },
   };
