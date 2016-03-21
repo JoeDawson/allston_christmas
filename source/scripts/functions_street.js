@@ -124,4 +124,21 @@ var pageFunctionsStreet = {
       makeAdder = setInterval(makePedestrian, 1500);
 
     },
+    handleCriminals: function(criminal) {
+      var self=this;
+      var potentialTargets = self.gameBoardState(true);
+      var inactiveTargets = potentialTargets.filter(function(el) {
+        if (!el.classList.contains('target-item')) {
+          return el;
+        }
+      });
+      var targetRando = self.randomizer(inactiveTargets.length, 1);
+      var target = inactiveTargets[targetRando - 1];
+
+      target.classList.add('target-item');
+
+      self.animationListener(criminal, target);
+
+
+    },
   };
