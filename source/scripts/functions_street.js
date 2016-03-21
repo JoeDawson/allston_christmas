@@ -43,4 +43,20 @@ var pageFunctionsStreet = {
         }
       }
     },
+    gameBoardState: function(state) {
+      var self=this;
+      var itemContainers = [].slice.call(document.querySelectorAll("div.item-container"));
+
+      // true == has items, false == no items;
+      var gameState = itemContainers.filter(function(el) {
+        var bar = el.querySelectorAll(".item");
+        // console.log(bar.length);
+          if (bar.length === 0 && !state) {
+            return el;
+          } else if (bar.length !== 0 && state) {
+            return el;
+          };
+      });
+      return gameState;
+    },
   };
