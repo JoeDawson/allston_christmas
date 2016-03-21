@@ -81,4 +81,47 @@ var pageFunctionsStreet = {
       addItems = setInterval(thingAdder, 3500);
 
     },
+    pedestrianSpawner: function() {
+      var self=this;
+
+    //  var pedestrianChannel =  document.querySelectorAll("div.pedestrian-channel");
+
+    var pedestrianChannel = document.querySelectorAll('div.pedestrian-channel')[0];
+
+    function makePedestrian() {
+        var animationTime = self.randomizerDecimal(6, 4);
+        var direction  = self.randomizer(2,1);
+        var pedestrian = document.createElement('div');
+        pedestrian.classList.add('pedestrian');
+        pedestrian.style.animationDuration = animationTime + "s";
+
+
+        var ethics = self.randomizer(3, 0);
+
+        // var ethics = 0;
+
+        // non criminals
+        if (direction === 1) {
+          pedestrian.classList.add('pedestrian-right');
+        }
+        if (direction !== 1) {
+          pedestrian.classList.add('pedestrian-left');
+        }
+        // fake criminal
+        if (ethics === 0) {
+          self.handleFakeCriminals(pedestrian, animationTime);
+        }
+        // criminal
+        if (ethics === 1) {
+          pedestrian.classList.add('criminal');
+          self.handleCriminals(pedestrian);
+        }
+        pedestrianChannel.appendChild(pedestrian);
+
+        self.handleAnimationEnd(pedestrian);
+      }
+
+      makeAdder = setInterval(makePedestrian, 1500);
+
+    },
   };
