@@ -186,6 +186,38 @@ var pageFunctionsStreet = {
         gameSquare.style.transform = 'translateX(' + (offset - moveIncrement) + 'px)';
       }
     },
+    animationListener: function(criminal, target) {
+      var self=this;
+
+      criminals = setInterval(criminalActivity, 100);
+      var targetPosition = target.getBoundingClientRect();
+
+      function criminalActivity() {
+        var criminalPosition = criminal.getBoundingClientRect();
+
+        var test = criminalPosition.left < targetPosition.left && criminalPosition.left > targetPosition.left - 150;
+
+
+        var testX = criminalPosition.left > targetPosition.left && criminalPosition.left < targetPosition.left + 150;
+
+        var testToo = criminal.classList.contains('dodge-up');
+
+        if (criminal.classList.contains('pedestrian-right')) {
+          var direction = 'right';
+        } else if  (criminal.classList.contains('pedestrian-left')) {
+          var direction = 'left';
+        }
+        if (test && !testToo && direction === 'left') {
+          criminal.classList.add('dodge-up');
+          self.stealShit(criminal, target);
+        }
+        if (testX && !testToo && direction === 'right') {
+          criminal.classList.add('dodge-up');
+          self.stealShit(criminal, target);
+        }
+
+      }
+    },
     stealShit: function(criminal, target) {
       var self=this;
       var item = target.querySelectorAll("div.item")[0];
