@@ -186,4 +186,13 @@ var pageFunctionsStreet = {
         gameSquare.style.transform = 'translateX(' + (offset - moveIncrement) + 'px)';
       }
     },
+    stealShit: function(criminal, target) {
+      var self=this;
+      var item = target.querySelectorAll("div.item")[0];
+      setTimeout(function(){
+        criminal.appendChild(item);
+        target.classList.remove('target-item');
+        document.getElementById('swipe').play();
+      }, 600);
+    },
   };
