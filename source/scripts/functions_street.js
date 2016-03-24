@@ -21,7 +21,7 @@ var pageFunctionsStreet = {
 
     },
     handleKeyboardInput: function () {
-      console.log('keys');
+      // console.log('keys');
 
         var self=this;
         document.onkeydown = function(e) {
@@ -29,7 +29,7 @@ var pageFunctionsStreet = {
             ? event.keyCode
             : event.charCode;
 
-        console.log(keyPress);
+        // console.log(keyPress);
 
         var shiftKey = e.shiftKey;
         var commandKey = event.metaKey;
@@ -47,7 +47,7 @@ var pageFunctionsStreet = {
         //   self.handleMove('down', shiftKey, commandKey);
         // }
         if (keyPress === 32) {
-          console.log('space');
+          // console.log('space');
           self.handlePunch();
         }
       }
