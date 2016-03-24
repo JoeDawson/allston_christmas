@@ -82,6 +82,8 @@ var pageFunctionsStreet = {
           // add item to that square
           var item = document.createElement('div');
           item.classList.add('item');
+          item.dataset.target = 'false';
+          item.dataset.stolen = 'false';
           placeItem.appendChild(item);
         } else {
           console.log('full!');
@@ -90,6 +92,28 @@ var pageFunctionsStreet = {
       addItems = setInterval(thingAdder, 3500);
 
     },
+    // clearGameBoard: function() {
+    //   var self=this;
+    //
+    //   function thingRemover() {
+    //     // find which squares are empty
+    //     var emptySquares = self.gameBoardState(true);
+    //     if (emptySquares.length !== 0) {
+    //     // randomly choose an empty square
+    //       var rando = self.randomizer(emptySquares.length, 0);
+    //
+    //       var placeItem = emptySquares[rando];
+    //
+    //       // add item to that square
+    //       placeItem.innerHTML = '';
+    //     } else {
+    //       console.log('empty!');
+    //     }
+    //   }
+    //
+    //   addItems = setInterval(thingRemover, 1500);
+    //
+    // },
     pedestrianSpawner: function() {
       var self=this;
 
@@ -103,38 +127,37 @@ var pageFunctionsStreet = {
         var pedestrian = document.createElement('div');
         pedestrian.classList.add('pedestrian');
         pedestrian.style.animationDuration = animationTime + "s";
+        pedestrian.dataset.guilty = 'false';
 
+        var ethics = self.randomizer(4, 1);
 
-        var ethics = self.randomizer(3, 0);
-
-        // var ethics = 0;
-
-        // non criminals
         if (direction === 1) {
           pedestrian.classList.add('pedestrian-right');
+          pedestrian.dataset.direction ='right';
         }
         if (direction !== 1) {
           pedestrian.classList.add('pedestrian-left');
+          pedestrian.dataset.direction ='left';
         }
         // fake criminal
-        if (ethics === 0) {
+        if (ethics > 1) {
           self.handleFakeCriminals(pedestrian, animationTime);
+          pedestrian.dataset.criminal = 'false';
         }
         // criminal
         if (ethics === 1) {
           pedestrian.classList.add('criminal');
+          pedestrian.dataset.criminal = 'true';
           self.handleCriminals(pedestrian);
         }
         pedestrianChannel.appendChild(pedestrian);
-
         self.handleAnimationEnd(pedestrian);
       }
-
       makeAdder = setInterval(makePedestrian, 1500);
-
     },
     handleCriminals: function(criminal) {
-      var self=this;
+      var
+       self=this;
       var potentialTargets = self.gameBoardState(true);
       var inactiveTargets = potentialTargets.filter(function(el) {
         if (!el.classList.contains('target-item')) {
@@ -144,16 +167,14 @@ var pageFunctionsStreet = {
       var targetRando = self.randomizer(inactiveTargets.length, 1);
       var target = inactiveTargets[targetRando - 1];
 
-      target.classList.add('target-item');
-
+      // target.classList.add('target-item');
+      // target.dataset.target = 'true';
       self.animationListener(criminal, target);
-
-
     },
     handleFakeCriminals: function(el, animationTime) {
       var self=this;
 
-      var rando = self.randomizer(8, 1);
+      var rando = self.randomizer(12, 1);
       var switchPoint = (animationTime / rando) * 1000;
       el.classList.add('fake-criminal');
       setTimeout(function(){
@@ -165,7 +186,7 @@ var pageFunctionsStreet = {
       var gameBoard = document.getElementById('game-board');
       var gameSquare = document.getElementById('mover');
 
-      console.log(direction);
+      // console.log(direction);
 
       if (shiftKey) {
         var moveIncrement = 80;
@@ -184,7 +205,7 @@ var pageFunctionsStreet = {
       // console.log('game bound', gameBoardPosition.left);
       var offset = (gameSquarePosition.left -  gameBoardPosition.left) - 475;
 
-      console.log(gameSquarePosition.left -  gameBoardPosition.left, 475);
+      // console.log(gameSquarePosition.left -  gameBoardPosition.left, 475);
 
       gameSquare.classList.add('game-square--animate');
 
@@ -198,7 +219,7 @@ var pageFunctionsStreet = {
     animationListener: function(criminal, target) {
       var self=this;
 
-      criminals = setInterval(criminalActivity, 100);
+      var criminals = setInterval(criminalActivity, 100);
       var targetPosition = target.getBoundingClientRect();
 
       function criminalActivity() {
@@ -224,7 +245,6 @@ var pageFunctionsStreet = {
           criminal.classList.add('dodge-up');
           self.stealShit(criminal, target);
         }
-
       }
     },
     stealShit: function(criminal, target) {
@@ -232,32 +252,34 @@ var pageFunctionsStreet = {
       var item = target.querySelectorAll("div.item")[0];
       setTimeout(function(){
         criminal.appendChild(item);
+        criminal.dataset.guilty = 'true';
+        item.dataset.stolen = 'true';
         target.classList.remove('target-item');
         document.getElementById('swipe').play();
       }, 600);
     },
     handleAnimationEnd: function(anim) {
       var self=this;
-
       var pedChannel = document.querySelector("#ped-channel");
       anim.addEventListener("animationend",function(e){
-          pedChannel.removeChild(anim);
 
+          var criminalStatus = anim.dataset.criminal;
+          var guilty = anim.dataset.guilty;
+          if (criminalStatus === 'true' && guilty === 'true') {
+            console.log('stolen');
+            var stolen = self.gameStatus.stolen + 1;
+            self.gameStatus.stolen = stolen;
+            self.handleScore();
+          }
+          pedChannel.removeChild(anim);
           console.log('animation ended!');
       },false);
-
     },
     handlePunch: function() {
       var self=this;
-
       console.log('punch');
-
       var suspectArr = [].slice.call(document.querySelectorAll("div.criminal, div.fake-criminal"));
       var gameSquare = document.querySelector('#mover');
-
-      // console.log('suspectArr', suspectArr);
-      // console.log('mover', mover);
-
       var gameSquarePosition = gameSquare.getBoundingClientRect();
 
        var punchedGuy = suspectArr.filter(function (el) {
@@ -270,13 +292,43 @@ var pageFunctionsStreet = {
         if (leftAlign || rightAlign) {
           el.classList.add('punched');
           document.getElementById('punch').play();
+          self.godSortThemOut(el);
         }
-
       });
+    },
+    godSortThemOut: function(el) {
+      var self=this;
+      var criminalStatus = el.dataset.criminal;
+      var guilty = el.dataset.guilty;
 
+      if (criminalStatus === 'true' && guilty === 'true') {
+        var score = self.gameStatus.stopped + 1;
+        self.gameStatus.stopped = score;
+      }
+      else if (criminalStatus === 'true' && guilty === 'false') {
+        var assaults = self.gameStatus.assaults + 1;
+        self.gameStatus.assaults = assaults;
+      }
+      else if (criminalStatus === 'false') {
+        var assaults = self.gameStatus.assaults + 1;
+        self.gameStatus.assaults = assaults;
+      }
+      self.handleScore();
+    },
+    handleScore: function() {
+      var self=this;
+      var savedScore = document.querySelector('#saved-counter');
+      var assaultedScore = document.querySelector('#assault-counter');
+      var stolenScore = document.querySelector('#stolen-counter');
 
+      console.log(self.gameStatus.assaults, assaultedScore);
+
+      savedScore.innerHTML = 'Stolen items recovered ' + self.gameStatus.stopped;
+      assaultedScore.innerHTML = 'Innocent bystanders assaulted ' + self.gameStatus.assaults;
+      stolenScore.innerHTML = 'Items stolen ' + self.gameStatus.stolen;
 
     },
+    gameStatus: {'stopped': 0,'stolen':0, 'assaults':0},
     randomizer: function(large, small) {
       var rando = Math.floor((Math.random() * large) + small);
       return rando;
