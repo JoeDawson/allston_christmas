@@ -345,8 +345,17 @@ var pageFunctionsStreet = {
       }
       self.handleScore();
     },
+    handleScore: function() {
+      var self=this;
+      var savedScore = document.querySelector('#saved-counter');
+      var assaultedScore = document.querySelector('#assault-counter');
+      var stolenScore = document.querySelector('#stolen-counter');
 
+      console.log(self.gameStatus.assaults, assaultedScore);
 
+      savedScore.innerHTML = 'Stolen items recovered ' + self.gameStatus.stopped;
+      assaultedScore.innerHTML = 'Innocent bystanders assaulted ' + self.gameStatus.assaults;
+      stolenScore.innerHTML = 'Items stolen ' + self.gameStatus.stolen;
 
     },
     stolenItems: [],
