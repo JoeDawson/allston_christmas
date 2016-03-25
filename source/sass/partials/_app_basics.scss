@@ -232,11 +232,23 @@ body {
   right:-80px;
   animation-name: example;
   bottom:20px;
+  .item {
+    position: absolute;
+    left:-20px;
+    width:40px;
+    top:8px;
+  }
 }
 .pedestrian-left {
   left:-80px;
   animation-name: example-left;
   bottom:40px;
+  .item {
+    position: absolute;
+    right:-20px;
+    width:40px;
+    top:8px;
+  }
 }
 .criminal {
   // background-color: black;
