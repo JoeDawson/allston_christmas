@@ -140,6 +140,7 @@ var pageFunctionsStreet = {
         var pedestrian = document.createElement('div');
         pedestrian.classList.add('pedestrian');
         pedestrian.style.animationDuration = animationTime + "s";
+        pedestrian.dataset.guilty = 'false';
 
 
         var ethics = self.randomizer(3, 0);
