@@ -182,8 +182,8 @@ var pageFunctionsStreet = {
       var targetRando = self.randomizer(inactiveTargets.length, 1);
       var target = inactiveTargets[targetRando - 1];
 
-      target.classList.add('target-item');
-
+      // target.classList.add('target-item');
+      // target.dataset.target = 'true';
       self.animationListener(criminal, target);
 
 
