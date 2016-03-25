@@ -191,7 +191,7 @@ var pageFunctionsStreet = {
     handleFakeCriminals: function(el, animationTime) {
       var self=this;
 
-      var rando = self.randomizer(8, 1);
+      var rando = self.randomizer(12, 1);
       var switchPoint = (animationTime / rando) * 1000;
       el.classList.add('fake-criminal');
       setTimeout(function(){
