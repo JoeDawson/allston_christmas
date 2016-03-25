@@ -307,6 +307,15 @@ var pageFunctions = {
              }, 200);
 
             crashCountBox.innerHTML = 'Bridges hit ' + self.gameStatus.crashCount;
+
+            var secDep = 100 - (self.gameStatus.crashCount * 20);
+
+            console.log(secDep);
+
+            if (secDep !== 0 && secDep > 0) {
+              document.getElementById('security-deposit').innerHTML = 'Percent of security deposit remaining: ' + secDep;
+            }
+
         }
 
     },
