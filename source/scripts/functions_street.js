@@ -362,6 +362,7 @@ var pageFunctionsStreet = {
     items:['chair', 'table', 'vase', 'guitar', 'bong', 'box', 'shirt_red', 'shirt_blue', 'underwear', 'art', 'books', 'pan', 'shoes', 'tv', 'laptop', 'rug', 'dresser', 'coffe_table', 'video_game', 'pants', 'box', 'box', 'box'],
     itemCounter: 0,
     stolenItems: [],
+    recoveredItems: [],
     randomizer: function(large, small) {
       var rando = Math.floor((Math.random() * large) + small);
       return rando;
