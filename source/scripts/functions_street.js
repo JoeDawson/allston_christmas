@@ -164,12 +164,9 @@ var pageFunctionsStreet = {
           self.handleCriminals(pedestrian);
         }
         pedestrianChannel.appendChild(pedestrian);
-
         self.handleAnimationEnd(pedestrian);
       }
-
       makeAdder = setInterval(makePedestrian, 1500);
-
     },
     handleCriminals: function(criminal) {
       var self=this;
@@ -185,8 +182,6 @@ var pageFunctionsStreet = {
       // target.classList.add('target-item');
       // target.dataset.target = 'true';
       self.animationListener(criminal, target);
-
-
     },
     handleFakeCriminals: function(el, animationTime) {
       var self=this;
@@ -262,7 +257,6 @@ var pageFunctionsStreet = {
           criminal.classList.add('dodge-up');
           self.stealShit(criminal, target);
         }
-
       }
     },
     stealShit: function(criminal, target) {
@@ -278,7 +272,6 @@ var pageFunctionsStreet = {
     },
     handleAnimationEnd: function(anim) {
       var self=this;
-
       var pedChannel = document.querySelector("#ped-channel");
       anim.addEventListener("animationend",function(e){
 
@@ -298,19 +291,12 @@ var pageFunctionsStreet = {
           pedChannel.removeChild(anim);
           console.log('animation ended!');
       },false);
-
     },
     handlePunch: function() {
       var self=this;
-
       console.log('punch');
-
       var suspectArr = [].slice.call(document.querySelectorAll("div.criminal, div.fake-criminal"));
       var gameSquare = document.querySelector('#mover');
-
-      // console.log('suspectArr', suspectArr);
-      // console.log('mover', mover);
-
       var gameSquarePosition = gameSquare.getBoundingClientRect();
 
        var punchedGuy = suspectArr.filter(function (el) {
@@ -323,9 +309,10 @@ var pageFunctionsStreet = {
         if (leftAlign || rightAlign) {
           el.classList.add('punched');
           document.getElementById('punch').play();
+          self.godSortThemOut(el);
         }
-
       });
+    },
     godSortThemOut: function(el) {
       var self=this;
       var criminalStatus = el.dataset.criminal;
@@ -376,7 +363,6 @@ var pageFunctionsStreet = {
       var rando = Math.floor((Math.random() * 2) + 1);
       // return (rando === 1);
       return rando === 1;
-
     },
     shuffle: function(input) {
       for (var i = input.length-1; i >=0; i--) {
