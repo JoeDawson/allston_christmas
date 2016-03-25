@@ -87,11 +87,7 @@ var pageFunctions = {
         difficultyLevel.score = 500;
         difficultyLevel.interval = 700 - rando;
       }
-
-      console.log(difficultyLevel);
-
       return difficultyLevel;
-
     },
     makeBarrier: function() {
       var self=this;
@@ -129,13 +125,6 @@ var pageFunctions = {
     },
     spawner: function(state) {
       var self=this;
-
-    console.log(state);
-
-      // if (state === true) {
-      // var interval = (4 - self.randomizeInterval()) * 1000;
-      // doThing();
-
       if(state){
         timer = setInterval(function(){
           self.makeBarrier(true);
