@@ -236,7 +236,7 @@ var pageFunctionsStreet = {
     animationListener: function(criminal, target) {
       var self=this;
 
-      criminals = setInterval(criminalActivity, 100);
+      var criminals = setInterval(criminalActivity, 100);
       var targetPosition = target.getBoundingClientRect();
 
       function criminalActivity() {
