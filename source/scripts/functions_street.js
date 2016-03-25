@@ -203,7 +203,7 @@ var pageFunctionsStreet = {
       var gameBoard = document.getElementById('game-board');
       var gameSquare = document.getElementById('mover');
 
-      console.log(direction);
+      // console.log(direction);
 
       if (shiftKey) {
         var moveIncrement = 80;
@@ -222,7 +222,7 @@ var pageFunctionsStreet = {
       // console.log('game bound', gameBoardPosition.left);
       var offset = (gameSquarePosition.left -  gameBoardPosition.left) - 475;
 
-      console.log(gameSquarePosition.left -  gameBoardPosition.left, 475);
+      // console.log(gameSquarePosition.left -  gameBoardPosition.left, 475);
 
       gameSquare.classList.add('game-square--animate');
 
