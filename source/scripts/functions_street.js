@@ -153,7 +153,7 @@ var pageFunctionsStreet = {
           pedestrian.dataset.direction ='left';
         }
         // fake criminal
-        if (ethics === 0) {
+        if (ethics > 1) {
           self.handleFakeCriminals(pedestrian, animationTime);
         }
         // criminal
