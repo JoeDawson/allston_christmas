@@ -326,6 +326,25 @@ var pageFunctionsStreet = {
         }
 
       });
+    godSortThemOut: function(el) {
+      var self=this;
+      var criminalStatus = el.dataset.criminal;
+      var guilty = el.dataset.guilty;
+
+      if (criminalStatus === 'true' && guilty === 'true') {
+        var score = self.gameStatus.stopped + 1;
+        self.gameStatus.stopped = score;
+      }
+      else if (criminalStatus === 'true' && guilty === 'false') {
+        var assaults = self.gameStatus.assaults + 1;
+        self.gameStatus.assaults = assaults;
+      }
+      else if (criminalStatus === 'false') {
+        var assaults = self.gameStatus.assaults + 1;
+        self.gameStatus.assaults = assaults;
+      }
+      self.handleScore();
+    },
 
 
 
