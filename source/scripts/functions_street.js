@@ -142,12 +142,8 @@ var pageFunctionsStreet = {
         pedestrian.style.animationDuration = animationTime + "s";
         pedestrian.dataset.guilty = 'false';
 
+        var ethics = self.randomizer(4, 1);
 
-        var ethics = self.randomizer(3, 0);
-
-        // var ethics = 0;
-
-        // non criminals
         if (direction === 1) {
           pedestrian.classList.add('pedestrian-right');
         }
