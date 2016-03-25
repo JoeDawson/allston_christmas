@@ -330,6 +330,7 @@ var pageFunctionsStreet = {
 
 
     },
+    stolenItems: [],
     randomizer: function(large, small) {
       var rando = Math.floor((Math.random() * large) + small);
       return rando;
