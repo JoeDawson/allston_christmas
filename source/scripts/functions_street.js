@@ -91,7 +91,13 @@ var pageFunctionsStreet = {
           // add item to that square
           var item = document.createElement('div');
           item.classList.add('item');
+          item.dataset.target = 'false';
+          item.dataset.stolen = 'false';
+          item.innerHTML = itemArr[self.itemCounter];
+          item.dataset.itemType = itemArr[self.itemCounter];
           placeItem.appendChild(item);
+          incrementCounter = self.itemCounter + 1;
+          self.itemCounter = incrementCounter;
         } else {
           console.log('full!');
         }
