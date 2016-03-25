@@ -358,6 +358,7 @@ var pageFunctionsStreet = {
       stolenScore.innerHTML = 'Items stolen ' + self.gameStatus.stolen;
 
     },
+    gameStatus: {'stopped': 0,'stolen':0, 'assaults':0},
     stolenItems: [],
     randomizer: function(large, small) {
       var rando = Math.floor((Math.random() * large) + small);
