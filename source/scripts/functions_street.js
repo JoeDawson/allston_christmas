@@ -360,6 +360,7 @@ var pageFunctionsStreet = {
     },
     gameStatus: {'stopped': 0,'stolen':0, 'assaults':0},
     items:['chair', 'table', 'vase', 'guitar', 'bong', 'box', 'shirt_red', 'shirt_blue', 'underwear', 'art', 'books', 'pan', 'shoes', 'tv', 'laptop', 'rug', 'dresser', 'coffe_table', 'video_game', 'pants', 'box', 'box', 'box'],
+    itemCounter: 0,
     stolenItems: [],
     randomizer: function(large, small) {
       var rando = Math.floor((Math.random() * large) + small);
