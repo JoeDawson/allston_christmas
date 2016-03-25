@@ -281,8 +281,21 @@ var pageFunctionsStreet = {
 
       var pedChannel = document.querySelector("#ped-channel");
       anim.addEventListener("animationend",function(e){
-          pedChannel.removeChild(anim);
 
+          var criminalStatus = anim.dataset.criminal;
+          var guilty = anim.dataset.guilty;
+          if (criminalStatus === 'true' && guilty === 'true') {
+            var stolen = self.gameStatus.stolen + 1;
+            self.gameStatus.stolen = stolen;
+            self.handleScore();
+            var item = anim.querySelector('div.item');
+            console.log(item.dataset.itemType);
+
+            self.stolenItems.push(item.dataset.itemType);
+
+            console.log(self.stolenItems);
+          }
+          pedChannel.removeChild(anim);
           console.log('animation ended!');
       },false);
 
