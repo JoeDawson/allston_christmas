@@ -270,6 +270,8 @@ var pageFunctionsStreet = {
       var item = target.querySelectorAll("div.item")[0];
       setTimeout(function(){
         criminal.appendChild(item);
+        criminal.dataset.guilty = 'true';
+        item.dataset.stolen = 'true';
         target.classList.remove('target-item');
         document.getElementById('swipe').play();
       }, 600);
