@@ -143,19 +143,15 @@ body {
   0% { transform: translatex(0);}
   100% { transform: translatex(-1080px); }
 }
-@keyframes exampleTwo {
-   0% { transform: translatex(0); }
-    30% { transform: translatex(0); }
-   100% { transform: translatex(-1080px); }
-}
-@keyframes wiggle {
-   0% { transform: translatex(0); }
-    100% { transform: translatex(20px); }
+@keyframes example-left {
+  0% { transform: translatex(0);}
+  100% { transform: translatex(1080px); }
 }
 @keyframes crash {
   0% { opacity: 0; }
    100% { opacity:1; }
 }
+
 .score-box {
   text-align: center;
   position:relative;
