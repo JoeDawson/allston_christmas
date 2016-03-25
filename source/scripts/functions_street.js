@@ -146,9 +146,11 @@ var pageFunctionsStreet = {
 
         if (direction === 1) {
           pedestrian.classList.add('pedestrian-right');
+          pedestrian.dataset.direction ='right';
         }
         if (direction !== 1) {
           pedestrian.classList.add('pedestrian-left');
+          pedestrian.dataset.direction ='left';
         }
         // fake criminal
         if (ethics === 0) {
