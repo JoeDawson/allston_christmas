@@ -155,10 +155,12 @@ var pageFunctionsStreet = {
         // fake criminal
         if (ethics > 1) {
           self.handleFakeCriminals(pedestrian, animationTime);
+          pedestrian.dataset.criminal = 'false';
         }
         // criminal
         if (ethics === 1) {
           pedestrian.classList.add('criminal');
+          pedestrian.dataset.criminal = 'true';
           self.handleCriminals(pedestrian);
         }
         pedestrianChannel.appendChild(pedestrian);
