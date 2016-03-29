@@ -210,29 +210,34 @@ body {
   overflow: hidden;
 }
 .pedestrian {
-  height:80px;
-  width:50px;
-  background-color:$med;
+  height:110px;
+  width:70px;
   position:absolute;
   bottom:0;
   right:800px;
-  animation-timing-function: linear;
+  opacity:1;
+  // animation-timing-function: linear;
   // animation-duration: 5.5s;
-  animation-iteration-count: 1;
-  animation-name: example;
-  background-color:red;
+  // animation-iteration-count: 1;
+  // animation-name: example;
   background-size:80px;
   z-index:3;
 }
 .pedestrian-right {
   right:-80px;
-  animation-name: example;
+  // animation-name: example;
   bottom:20px;
+  background-image: url('/siteart/blond.svg');
+  background-size: 320px auto;
+  background-repeat: no-repeat;
+
+  animation: walk-right .45s steps(4, end) infinite, example 5.5s linear 1;
+  background-position: 0px -110px;
   .item {
     position: absolute;
     left:-20px;
     width:40px;
-    top:8px;
+    top:20px;
   }
 }
 @keyframes walk-right {
