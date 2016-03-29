@@ -18,6 +18,9 @@ var pageFunctions = {
         self.handleKeyboardInput();
         self.spawner(true);
         self.barrierStatus(false);
+        document.getElementById('music').play();
+        document.getElementById('truck').play();
+        document.getElementById('play').focus() = false;
       });
 
     },
