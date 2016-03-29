@@ -316,6 +316,7 @@ var pageFunctionsStreet = {
       var self=this;
       var criminalStatus = el.dataset.criminal;
       var guilty = el.dataset.guilty;
+      var gameBoard = document.getElementById('game-board');
 
       if (criminalStatus === 'true' && guilty === 'true') {
         var score = self.gameStatus.stopped + 1;
@@ -329,8 +330,24 @@ var pageFunctionsStreet = {
       else if (criminalStatus === 'true' && guilty === 'false') {
         var assaults = self.gameStatus.assaults + 1;
         self.gameStatus.assaults = assaults;
+
+        gameBoard.classList.add('game-board--active');
+        setTimeout(function(){
+           gameBoard.classList.remove('game-board--active');
+         }, 200);
+        setTimeout(function(){
+          document.getElementById('fail').play();
+        }, 100);
+
       }
       else if (criminalStatus === 'false') {
+        gameBoard.classList.add('game-board--active');
+        setTimeout(function(){
+           gameBoard.classList.remove('game-board--active');
+         }, 200);
+        setTimeout(function(){
+          document.getElementById('fail').play();
+      }, 100);
         var assaults = self.gameStatus.assaults + 1;
         self.gameStatus.assaults = assaults;
       }
