@@ -271,6 +271,32 @@ body {
   position: absolute;
   z-index:2;
 }
+.mover-figure {
+  position: absolute;
+  left:0;
+  top:0;
+  width:320px;
+  height:220px;
+  background-image: url('/siteart/mover.svg');
+  background-size: 320px auto;
+  background-repeat: no-repeat;
+  // left:-240px;
+  animation: walk .22s steps(4, end) infinite;
+  animation-play-state: paused;
+  background-position: 0px 0;
+}
+.mover-left {
+  background-position: 0 -110px;
+}
+.mover--animate {
+  transition: transform .22s;
+  // border:1px solid blue;
+}
+@keyframes walk {
+  0% { left: 0px;}
+  100% { left: -320px;}
+}
+
 .target-item {
   // border:4px solid red;
 }
