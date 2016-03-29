@@ -252,13 +252,18 @@ body {
 }
 .pedestrian-left {
   left:-80px;
-  animation-name: example-left;
+  // animation-name: example-left;
   bottom:40px;
+  background-image: url('/siteart/blond.svg');
+  background-size: 320px auto;
+  background-repeat: no-repeat;
+  background-position: 0 0px;
+  animation: walk-left .45s steps(4, end) infinite, example-left 5.5s linear 1;
   .item {
     position: absolute;
     right:-20px;
     width:40px;
-    top:8px;
+    top:20px;
   }
 }
 .criminal {
