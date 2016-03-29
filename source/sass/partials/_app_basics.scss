@@ -262,14 +262,13 @@ body {
   z-index:1;
 }
 .mover {
-  height:80px;
-  width:50px;
+  height:110px;
+  width:80px;
   left:475px;
-  // animation-name: example-left;
   bottom:80px;
-  background-color:blue;
   position: absolute;
   z-index:2;
+  overflow:hidden;
 }
 .mover-figure {
   position: absolute;
