@@ -303,3 +303,7 @@ body {
 .punched {
   border:5px solid yellow;
 }
+.criminal.punched {
+  opacity: 0;
+  transition: 1s opacity cubic-bezier(.93,-0.38,0,1.56);
+}
