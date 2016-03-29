@@ -12,13 +12,16 @@ var pageFunctionsStreet = {
     initializeGame: function() {
       var self=this;
 
+      // self.handleKeyboardInput();
+
       console.log('game');
       document.getElementById('play').addEventListener('click', function() {
         self.pedestrianSpawner();
         self.setGameBoard();
         self.handleKeyboardInput();
+        document.getElementById('music').play();
+        document.getElementById('play').focus() = false;
       });
-
     },
     handleKeyboardInput: function () {
       // console.log('keys');
