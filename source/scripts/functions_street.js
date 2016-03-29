@@ -319,6 +319,11 @@ var pageFunctionsStreet = {
 
       if (criminalStatus === 'true' && guilty === 'true') {
         var score = self.gameStatus.stopped + 1;
+
+        setTimeout(function(){
+          document.getElementById('score').play();
+      }, 700);
+
         self.gameStatus.stopped = score;
       }
       else if (criminalStatus === 'true' && guilty === 'false') {
