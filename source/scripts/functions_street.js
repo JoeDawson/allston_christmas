@@ -202,14 +202,30 @@ var pageFunctionsStreet = {
 
       // console.log(gameSquarePosition.left -  gameBoardPosition.left, 475);
 
-      gameSquare.classList.add('game-square--animate');
+      gameSquare.classList.add('mover--animate');
+      var animateEl = gameSquare.querySelector('div.mover-figure');
+
+      var moveLeft = animateEl.classList.contains('mover-left');
+
 
       if (direction === "right") {
         gameSquare.style.transform = 'translateX(' + (offset + moveIncrement) + 'px)';
+        animateEl.style.animationPlayState = "running";
+        animateEl.classList.remove('mover-left');
       }
+
       if (direction === "left") {
+        if (!moveLeft) {
+          animateEl.classList.add('mover-left');
+        }
         gameSquare.style.transform = 'translateX(' + (offset - moveIncrement) + 'px)';
+        animateEl.style.animationPlayState = "running";
+
       }
+      animateEl.addEventListener("animationiteration",function(e){
+          console.log("log at beginning of each subsequent iteration");
+          animateEl.style.animationPlayState = "paused";
+      },false);
     },
     animationListener: function(criminal, target) {
       var self=this;
