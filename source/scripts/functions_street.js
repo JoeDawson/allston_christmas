@@ -112,7 +112,6 @@ var pageFunctionsStreet = {
     pedestrianSpawner: function() {
       var self=this;
 
-    //  var pedestrianChannel =  document.querySelectorAll("div.pedestrian-channel");
 
     var pedestrianChannel = document.querySelectorAll('div.pedestrian-channel')[0];
 
