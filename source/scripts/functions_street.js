@@ -148,7 +148,7 @@ var pageFunctionsStreet = {
         pedestrianChannel.appendChild(pedestrian);
         self.handleAnimationEnd(pedestrian);
       }
-      makeAdder = setInterval(makePedestrian, 1500);
+      makeAdder = setInterval(makePedestrian, 2000);
     },
     handleCriminals: function(criminal) {
       var self=this;
