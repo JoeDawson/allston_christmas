@@ -189,6 +189,7 @@ var pageFunctionsStreet = {
       }
       else {
         var moveIncrement = 35;
+        var moveTime = .25;
       }
 
       var startingPosition = 475;
