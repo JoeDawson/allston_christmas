@@ -109,28 +109,6 @@ var pageFunctionsStreet = {
       addItems = setInterval(thingAdder, 3500);
 
     },
-    // clearGameBoard: function() {
-    //   var self=this;
-    //
-    //   function thingRemover() {
-    //     // find which squares are empty
-    //     var emptySquares = self.gameBoardState(true);
-    //     if (emptySquares.length !== 0) {
-    //     // randomly choose an empty square
-    //       var rando = self.randomizer(emptySquares.length, 0);
-    //
-    //       var placeItem = emptySquares[rando];
-    //
-    //       // add item to that square
-    //       placeItem.innerHTML = '';
-    //     } else {
-    //       console.log('empty!');
-    //     }
-    //   }
-    //
-    //   addItems = setInterval(thingRemover, 1500);
-    //
-    // },
     pedestrianSpawner: function() {
       var self=this;
 
