@@ -121,7 +121,7 @@ var pageFunctionsStreet = {
         var direction  = self.randomizer(2,1);
         var pedestrian = document.createElement('div');
         pedestrian.classList.add('pedestrian');
-        pedestrian.style.animationDuration = animationTime + "s";
+        // pedestrian.style.animationDuration = '.45s,' + animationTime + "s";
         pedestrian.dataset.guilty = 'false';
 
         var ethics = self.randomizer(3, 1);
