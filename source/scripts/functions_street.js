@@ -119,6 +119,9 @@ var pageFunctionsStreet = {
         var animationTime = self.randomizerDecimal(6, 4);
         var direction  = self.randomizer(2,1);
         var pedestrian = document.createElement('div');
+        // pedestrian.style.backgroundImage = "url('bad_" +  self.randomizer(2,1) + ".svg')";
+        pedestrian.style.backgroundImage = "url('siteart/bad_" +  self.randomizer(3, 1) + ".svg')";
+
         pedestrian.classList.add('pedestrian');
         // pedestrian.style.animationDuration = '.45s,' + animationTime + "s";
         pedestrian.dataset.guilty = 'false';
@@ -182,13 +185,13 @@ var pageFunctionsStreet = {
       // console.log(direction);
 
       if (shiftKey) {
-        var moveIncrement = 80;
-      } else if (metaKey) {
-        var moveIncrement = 10;
-      }
-      else {
-        var moveIncrement = 35;
-        var moveTime = .25;
+        var moveIncrement = 60;
+        var moveTime = ".15s";
+        var pace = 'run';
+      } else {
+        var moveIncrement = 20;
+        var moveTime = ".25s";
+        var pace = 'walk';
       }
 
       var startingPosition = 475;
@@ -209,6 +212,7 @@ var pageFunctionsStreet = {
 
       if (direction === "right") {
         gameSquare.style.transform = 'translateX(' + (offset + moveIncrement) + 'px)';
+        animateEl.style.animationDuration = moveTime;
         animateEl.style.animationPlayState = "running";
         animateEl.classList.remove('mover-left');
       }
@@ -217,13 +221,29 @@ var pageFunctionsStreet = {
         if (!moveLeft) {
           animateEl.classList.add('mover-left');
         }
+        animateEl.style.animationDuration = moveTime;
         gameSquare.style.transform = 'translateX(' + (offset - moveIncrement) + 'px)';
         animateEl.style.animationPlayState = "running";
 
       }
+      var counter = 0;
       animateEl.addEventListener("animationiteration",function(e){
           console.log("log at beginning of each subsequent iteration");
-          animateEl.style.animationPlayState = "paused";
+
+          counter++;
+
+          if (pace === 'walk' && counter === 1) {
+            console.log('once');
+            animateEl.style.animationPlayState = "paused";
+            counter = 0;
+          }
+          if (pace === 'run' && counter === 2) {
+            console.log('two');
+            animateEl.style.animationPlayState = "paused";
+            counter = 0;
+          }
+
+
       },false);
     },
     animationListener: function(criminal, target) {
