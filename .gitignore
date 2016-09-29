@@ -8,3 +8,5 @@ source/sass/base
 source/svg/svgsprite.svg
 source/scripts/vendor
 node_modules
+public
+_site
