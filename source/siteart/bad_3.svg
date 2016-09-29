@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="320px" height="220px" viewBox="0 0 320 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-1">
+            <g id="Right" transform="translate(15.000000, 1.000000)">
+                <g id="Frame-four" transform="translate(239.000000, 0.000000)">
+                    <g id="Pants" transform="translate(18.000000, 75.000000)">
+                        <g id="right-leg">
+                            <rect id="Rectangle-1" fill="#FDECDC" x="0" y="11" width="8" height="17"></rect>
+                            <rect id="Rectangle-1-Copy-31" fill="#D0011B" x="0" y="0" width="12" height="11"></rect>
+                            <rect id="Rectangle-1-Copy-32" fill="#D0011B" x="0" y="11" width="4" height="3"></rect>
+                            <rect id="Rectangle-1-Copy-33" fill="#D0011B" x="4" y="10" width="4" height="2"></rect>
+                        </g>
+                    </g>
+                    <g id="Shirt" transform="translate(12.000000, 39.000000)">
+                        <rect id="Rectangle-4" fill="#D0011B" x="0" y="4" width="18" height="15"></rect>
+                        <rect id="Rectangle-5" fill="#D0011B" x="4" y="0" width="12" height="4"></rect>
+                        <rect id="Rectangle-6" fill="#610410" x="4" y="10" width="12" height="2"></rect>
+                        <rect id="Rectangle-6-Copy" fill="#610410" x="4" y="0" width="12" height="2"></rect>
+                        <rect id="Rectangle-17" fill="#D0011B" x="2" y="2" width="2" height="2"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#D0011B" x="16" y="2" width="2" height="2"></rect>
+                        <rect id="Rectangle-17-Copy-2" fill="#D0011B" x="18" y="8" width="2" height="9"></rect>
+                        <rect id="Rectangle-17-Copy-3" fill="#D0011B" x="20" y="9" width="2" height="7"></rect>
+                        <rect id="Rectangle-2-Copy-6" fill="#D0011B" x="2" y="21" width="16" height="6"></rect>
+                        <rect id="Rectangle-2-Copy-10" fill="#D0011B" x="1" y="19" width="17" height="2"></rect>
+                    </g>
+                    <g id="Arm" transform="translate(18.000000, 51.000000)" fill="#FDECDC">
+                        <rect id="Rectangle-8-Copy-4" x="9" y="10" width="4" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-5" x="13" y="9" width="4" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-6" x="17" y="9" width="4" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-7" x="21" y="5" width="4" height="7"></rect>
+                        <rect id="Rectangle-8-Copy" x="0" y="0" width="6" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-2" x="1" y="4" width="6" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-3" x="3" y="8" width="6" height="4"></rect>
+                    </g>
+                    <g id="Left-leg" transform="translate(0.000000, 75.000000)">
+                        <g id="Shoe" transform="translate(18.000000, 28.000000)" fill="#000000">
+                            <rect id="Rectangle-11" x="0" y="0" width="11" height="2"></rect>
+                            <rect id="Rectangle-11-Copy" x="0" y="2" width="15" height="2"></rect>
+                            <rect id="Rectangle-11-Copy-12" x="6" y="4" width="11" height="2"></rect>
+                            <rect id="Rectangle-11-Copy-2" x="0" y="4" width="3" height="2"></rect>
+                        </g>
+                        <g id="Shoe-Copy" transform="translate(3.000000, 16.500000) rotate(-270.000000) translate(-3.000000, -16.500000) translate(-5.500000, 13.500000)" fill="#000000">
+                            <rect id="Rectangle-11" x="0" y="0" width="11" height="2"></rect>
+                            <rect id="Rectangle-11-Copy" x="0" y="2" width="15" height="2"></rect>
+                            <rect id="Rectangle-11-Copy-12" x="6" y="4" width="11" height="2"></rect>
+                            <rect id="Rectangle-11-Copy-2" x="0" y="4" width="3" height="2"></rect>
+                        </g>
+                        <rect id="Rectangle-181" fill="#D0011B" x="14" y="0" width="4" height="16"></rect>
+                        <rect id="Rectangle-181-Copy-3" fill="#D0011B" x="14" y="0" width="4" height="16"></rect>
+                        <rect id="Rectangle-181-Copy-4" fill="#D0011B" x="11" y="0" width="3" height="8"></rect>
+                        <rect id="Rectangle-181-Copy-5" fill="#D0011B" x="10" y="7" width="4" height="8"></rect>
+                        <rect id="Rectangle-181-Copy-2" fill="#FDECDC" x="6" y="8" width="4" height="8"></rect>
+                    </g>
+                    <g id="Butt" transform="translate(11.000000, 65.000000)" fill="#D0011B">
+                        <rect id="Rectangle-2-Copy-8" x="0" y="4" width="20" height="3"></rect>
+                        <rect id="Rectangle-2-Copy-5" x="1" y="2" width="18" height="2"></rect>
+                        <rect id="Rectangle-2-Copy-12" x="2" y="0" width="17" height="2"></rect>
+                        <rect id="Rectangle-2-Copy-11" x="1" y="7" width="19" height="3"></rect>
+                    </g>
+                    <g id="Head" transform="translate(12.000000, 7.000000)">
+                        <rect id="Rectangle-19" fill="#FDECDC" x="0" y="0" width="22" height="24"></rect>
+                        <rect id="Rectangle-144" fill="#609EE5" x="15" y="10" width="5" height="2"></rect>
+                        <rect id="Rectangle-144-Copy" fill="#FFFFFF" x="7" y="16" width="4" height="4"></rect>
+                        <rect id="Rectangle-20-Copy" fill="#FDECDC" x="22" y="10" width="2" height="6"></rect>
+                        <rect id="Rectangle-22" fill="#FDECDC" x="2" y="24" width="18" height="2"></rect>
+                        <rect id="Rectangle-23" fill="#FDECDC" x="4" y="26" width="12" height="6"></rect>
+                        <rect id="Rectangle-20-Copy-2" fill="#D0011B" x="17" y="22" width="5" height="2"></rect>
+                    </g>
+                    <g id="Hair" transform="translate(3.000000, 0.000000)">
+                        <rect id="Rectangle-24" fill="#F8E81C" x="8" y="4" width="26" height="5"></rect>
+                        <rect id="Rectangle-26" fill="#F8E81C" x="2" y="9" width="16" height="8"></rect>
+                        <rect id="Rectangle-27" fill="#F8E81C" x="0" y="17" width="16" height="8"></rect>
+                        <rect id="Rectangle-28" fill="#F8E81C" x="4" y="25" width="8" height="13"></rect>
+                        <rect id="Rectangle-25" fill="#F8E81C" x="13" y="0" width="16" height="4"></rect>
+                        <rect id="Rectangle-145-Copy-4" fill="#D7C917" x="22" y="4" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-12" fill="#D7C917" x="26" y="6" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-5" fill="#D7C917" x="15" y="6" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-6" fill="#D7C917" x="14" y="10" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-7" fill="#D7C917" x="9" y="12" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-8" fill="#D7C917" x="12" y="15" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-9" fill="#D7C917" x="8" y="19" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-10" fill="#D7C917" x="12" y="21" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-11" fill="#D7C917" x="9" y="26" width="2" height="2"></rect>
+                    </g>
+                </g>
+                <g id="Frame-two" transform="translate(80.000000, 0.000000)">
+                    <g id="Pants" transform="translate(8.000000, 65.000000)">
+                        <g id="Left-leg" transform="translate(1.000000, 10.000000)">
+                            <rect id="Rectangle-1-Copy" fill="#FDECDC" x="2" y="20" width="8" height="5"></rect>
+                            <rect id="Rectangle-1-Copy-27" fill="#FDECDC" x="1" y="25" width="8" height="3"></rect>
+                            <rect id="Rectangle-1-Copy-2" fill="#FDECDC" x="3" y="15" width="8" height="5"></rect>
+                            <rect id="Rectangle-1" fill="#D0011B" x="0" y="7" width="21" height="8"></rect>
+                            <rect id="Rectangle-1-Copy-26" fill="#D0011B" x="1" y="0" width="19" height="8"></rect>
+                        </g>
+                        <g id="Right-leg" transform="translate(12.000000, 12.000000)">
+                            <rect id="Rectangle-1-Copy-3" fill="#FDECDC" x="7" y="18" width="4" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-4" fill="#FDECDC" x="5" y="16" width="6" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-5" fill="#FDECDC" x="4" y="14" width="8" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-6" fill="#FDECDC" x="7" y="12" width="8" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-7" fill="#FDECDC" x="7" y="10" width="9" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-24" fill="#D0011B" x="7" y="10" width="5" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-8" fill="#FDECDC" x="6" y="8" width="10" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-25" fill="#D0011B" x="6" y="8" width="8" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-9" fill="#D0011B" x="5" y="6" width="12" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-10" fill="#D0011B" x="3" y="4" width="13" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-11" fill="#D0011B" x="1" y="2" width="13" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-12" fill="#4990E2" x="0" y="0" width="12" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-13" fill="#D0011B" x="0" y="0" width="12" height="2"></rect>
+                        </g>
+                        <g id="Butt" fill="#D0011B">
+                            <rect id="Rectangle-14-Copy" x="13" y="10" width="9" height="2"></rect>
+                            <rect id="Rectangle-2-Copy-8" x="0" y="4" width="20" height="3"></rect>
+                            <rect id="Rectangle-2-Copy-5" x="1" y="2" width="18" height="2"></rect>
+                            <rect id="Rectangle-2-Copy-12" x="2" y="0" width="17" height="2"></rect>
+                            <rect id="Rectangle-2-Copy-11" x="1" y="7" width="19" height="3"></rect>
+                        </g>
+                    </g>
+                    <g id="Shirt" transform="translate(9.000000, 39.000000)">
+                        <rect id="Rectangle-4" fill="#D0011B" x="0" y="4" width="18" height="15"></rect>
+                        <rect id="Rectangle-5" fill="#D0011B" x="4" y="0" width="12" height="4"></rect>
+                        <rect id="Rectangle-6" fill="#610410" x="4" y="10" width="12" height="2"></rect>
+                        <rect id="Rectangle-6-Copy" fill="#610410" x="4" y="0" width="12" height="2"></rect>
+                        <rect id="Rectangle-17" fill="#D0011B" x="2" y="2" width="2" height="2"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#D0011B" x="16" y="2" width="2" height="2"></rect>
+                        <rect id="Rectangle-17-Copy-2" fill="#D0011B" x="18" y="8" width="2" height="9"></rect>
+                        <rect id="Rectangle-17-Copy-3" fill="#D0011B" x="20" y="9" width="2" height="7"></rect>
+                        <rect id="Rectangle-2-Copy-6" fill="#D0011B" x="2" y="21" width="16" height="6"></rect>
+                        <rect id="Rectangle-2-Copy-10" fill="#D0011B" x="1" y="19" width="17" height="2"></rect>
+                    </g>
+                    <g id="Arm" transform="translate(11.000000, 51.000000)" fill="#FDECDC">
+                        <rect id="Rectangle-8" x="0" y="16" width="6" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-4" x="2" y="12" width="6" height="4"></rect>
+                        <rect id="Rectangle-8-Copy" x="6" y="0" width="6" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-2" x="5" y="4" width="6" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-3" x="3" y="8" width="6" height="4"></rect>
+                        <rect id="Rectangle-9" x="0" y="20" width="10" height="4"></rect>
+                    </g>
+                    <g id="Shoe" transform="translate(9.000000, 103.000000)" fill="#000000">
+                        <rect id="Rectangle-11" x="0" y="0" width="11" height="2"></rect>
+                        <rect id="Rectangle-11-Copy" x="0" y="2" width="15" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-12" x="6" y="4" width="11" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-2" x="0" y="4" width="3" height="2"></rect>
+                    </g>
+                    <g id="Right-shoe" transform="translate(21.000000, 93.000000)" fill="#000000">
+                        <rect id="Rectangle-72" x="0" y="0" width="6" height="2"></rect>
+                        <rect id="Rectangle-77-Copy" x="0" y="4" width="3" height="3"></rect>
+                        <rect id="Rectangle-77-Copy-2" x="4" y="6" width="2" height="2"></rect>
+                        <rect id="Rectangle-77-Copy-3" x="6" y="8" width="2" height="2"></rect>
+                        <rect id="Rectangle-72-Copy" x="0" y="2" width="8" height="2"></rect>
+                        <rect id="Rectangle-72-Copy-2" x="4" y="4" width="6" height="2"></rect>
+                        <rect id="Rectangle-72-Copy-3" x="6" y="6" width="6" height="2"></rect>
+                        <rect id="Rectangle-72-Copy-4" x="8" y="8" width="7" height="2"></rect>
+                    </g>
+                    <g id="Head" transform="translate(9.000000, 7.000000)">
+                        <rect id="Rectangle-19" fill="#FDECDC" x="0" y="0" width="22" height="24"></rect>
+                        <rect id="Rectangle-144" fill="#609EE5" x="15" y="10" width="5" height="2"></rect>
+                        <rect id="Rectangle-144-Copy" fill="#FFFFFF" x="7" y="16" width="4" height="4"></rect>
+                        <rect id="Rectangle-20-Copy" fill="#FDECDC" x="22" y="10" width="2" height="6"></rect>
+                        <rect id="Rectangle-22" fill="#FDECDC" x="2" y="24" width="18" height="2"></rect>
+                        <rect id="Rectangle-23" fill="#FDECDC" x="4" y="26" width="12" height="6"></rect>
+                        <rect id="Rectangle-20-Copy-2" fill="#D0011B" x="17" y="22" width="5" height="2"></rect>
+                    </g>
+                    <g id="Hair">
+                        <rect id="Rectangle-24" fill="#F8E81C" x="8" y="4" width="26" height="5"></rect>
+                        <rect id="Rectangle-26" fill="#F8E81C" x="2" y="9" width="16" height="8"></rect>
+                        <rect id="Rectangle-27" fill="#F8E81C" x="0" y="17" width="16" height="8"></rect>
+                        <rect id="Rectangle-28" fill="#F8E81C" x="4" y="25" width="8" height="13"></rect>
+                        <rect id="Rectangle-25" fill="#F8E81C" x="13" y="0" width="16" height="4"></rect>
+                        <rect id="Rectangle-145-Copy-4" fill="#D7C917" x="22" y="4" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-12" fill="#D7C917" x="26" y="6" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-5" fill="#D7C917" x="15" y="6" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-6" fill="#D7C917" x="14" y="10" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-7" fill="#D7C917" x="9" y="12" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-8" fill="#D7C917" x="12" y="15" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-9" fill="#D7C917" x="8" y="19" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-10" fill="#D7C917" x="12" y="21" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-11" fill="#D7C917" x="9" y="26" width="2" height="2"></rect>
+                    </g>
+                </g>
+                <g id="Frame-three" transform="translate(158.000000, 0.000000)">
+                    <g id="Pants" transform="translate(3.000000, 69.000000)">
+                        <g id="Left-leg" transform="translate(0.000000, 6.000000)">
+                            <rect id="Rectangle-1" fill="#D0011B" x="8" y="0" width="12" height="6"></rect>
+                            <rect id="Rectangle-1-Copy-14" fill="#D0011B" x="6" y="6" width="16" height="3"></rect>
+                            <rect id="Rectangle-1-Copy-15" fill="#D0011B" x="4" y="9" width="12" height="3"></rect>
+                            <rect id="Rectangle-1-Copy-28" fill="#D0011B" x="11" y="8" width="12" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-16" fill="#FDECDC" x="5" y="12" width="8" height="3"></rect>
+                            <rect id="Rectangle-1-Copy-17" fill="#FDECDC" x="3" y="15" width="8" height="3"></rect>
+                            <rect id="Rectangle-1-Copy-23" fill="#FDECDC" x="0" y="22" width="7" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-30" fill="#FDECDC" x="0" y="24" width="7" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-18" fill="#FDECDC" x="1" y="18" width="8" height="4"></rect>
+                        </g>
+                        <g id="Right-leg" transform="translate(18.000000, 8.000000)">
+                            <rect id="Rectangle-1-Copy-7" fill="#FDECDC" x="5" y="10" width="10" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-19" fill="#FDECDC" x="6" y="12" width="10" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-20" fill="#FDECDC" x="8" y="14" width="9" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-21" fill="#FDECDC" x="9" y="16" width="9" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-22" fill="#FDECDC" x="11" y="18" width="5" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-8" fill="#FDECDC" x="4" y="8" width="10" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-9" fill="#FDECDC" x="4" y="6" width="9" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-29" fill="#D0011B" x="4" y="6" width="7" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-10" fill="#D0011B" x="2" y="4" width="12" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-11" fill="#D0011B" x="1" y="2" width="12" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-13" fill="#D0011B" x="0" y="0" width="12" height="2"></rect>
+                        </g>
+                        <g id="Butt" transform="translate(8.000000, 0.000000)">
+                            <rect id="Rectangle-2-Copy" fill="#4990E2" x="0" y="0" width="20" height="6"></rect>
+                            <rect id="Rectangle-14-Copy" fill="#D0011B" x="12" y="6" width="8" height="2"></rect>
+                            <rect id="Rectangle-2" fill="#D0011B" x="0" y="0" width="20" height="6"></rect>
+                        </g>
+                    </g>
+                    <g id="Shirt" transform="translate(11.000000, 39.000000)">
+                        <rect id="Rectangle-4" fill="#D0011B" x="0" y="4" width="18" height="15"></rect>
+                        <rect id="Rectangle-5" fill="#D0011B" x="4" y="0" width="12" height="4"></rect>
+                        <rect id="Rectangle-6" fill="#610410" x="4" y="10" width="12" height="2"></rect>
+                        <rect id="Rectangle-6-Copy" fill="#610410" x="4" y="0" width="12" height="2"></rect>
+                        <rect id="Rectangle-17" fill="#D0011B" x="2" y="2" width="2" height="2"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#D0011B" x="16" y="2" width="2" height="2"></rect>
+                        <rect id="Rectangle-17-Copy-2" fill="#D0011B" x="18" y="8" width="2" height="9"></rect>
+                        <rect id="Rectangle-17-Copy-3" fill="#D0011B" x="20" y="9" width="2" height="7"></rect>
+                        <rect id="Rectangle-2-Copy-6" fill="#D0011B" x="2" y="21" width="16" height="6"></rect>
+                        <rect id="Rectangle-2-Copy-10" fill="#D0011B" x="1" y="19" width="17" height="2"></rect>
+                    </g>
+                    <g id="Butt" transform="translate(10.000000, 65.000000)" fill="#D0011B">
+                        <rect id="Rectangle-14-Copy" x="13" y="10" width="9" height="2"></rect>
+                        <rect id="Rectangle-2-Copy-8" x="0" y="4" width="20" height="3"></rect>
+                        <rect id="Rectangle-2-Copy-5" x="1" y="2" width="18" height="2"></rect>
+                        <rect id="Rectangle-2-Copy-12" x="2" y="0" width="17" height="2"></rect>
+                        <rect id="Rectangle-2-Copy-11" x="1" y="7" width="19" height="3"></rect>
+                    </g>
+                    <g id="Arm" transform="translate(19.000000, 51.000000)" fill="#FDECDC">
+                        <rect id="Rectangle-8" x="7" y="16" width="6" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-4" x="5" y="12" width="6" height="4"></rect>
+                        <rect id="Rectangle-8-Copy" x="0" y="0" width="6" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-2" x="1" y="4" width="6" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-3" x="3" y="8" width="6" height="4"></rect>
+                        <rect id="Rectangle-9" x="7" y="20" width="10" height="4"></rect>
+                    </g>
+                    <g id="Shoe" transform="translate(0.000000, 99.000000)" fill="#000000">
+                        <rect id="Rectangle-11-Copy-3" x="2" y="2" width="10" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-4" x="5" y="4" width="9" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-6" x="7" y="6" width="9" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-7" x="9" y="8" width="7" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-9" x="1" y="4" width="3" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-13" x="0" y="6" width="3" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-16" x="2" y="0" width="2" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-17" x="4" y="0" width="2" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-10" x="7" y="6" width="2" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-11" x="9" y="8" width="10" height="2"></rect>
+                    </g>
+                    <g id="Right-shoe" transform="translate(41.500000, 97.000000) rotate(270.000000) translate(-41.500000, -97.000000) translate(34.500000, 90.500000)" fill="#000000">
+                        <rect id="Rectangle-72" x="3" y="-1.42108547e-14" width="4" height="2"></rect>
+                        <rect id="Rectangle-77-Copy" x="1" y="2" width="4" height="2"></rect>
+                        <rect id="Rectangle-77-Copy-2" x="5" y="7" width="2" height="2"></rect>
+                        <rect id="Rectangle-77-Copy-3" x="7" y="9" width="2" height="2"></rect>
+                        <rect id="Rectangle-77-Copy-4" x="10" y="11" width="4" height="2"></rect>
+                        <rect id="Rectangle-72-Copy" x="4" y="2" width="5" height="3"></rect>
+                        <rect id="Rectangle-72-Copy-2" x="5" y="4" width="5" height="3"></rect>
+                        <rect id="Rectangle-72-Copy-3" x="7" y="6" width="5" height="3"></rect>
+                        <rect id="Rectangle-72-Copy-4" x="9" y="8" width="4" height="3"></rect>
+                        <rect id="Rectangle-77-Copy-6" x="-7.10542736e-15" y="3" width="4" height="2"></rect>
+                        <rect id="Rectangle-77-Copy-7" x="1" y="4" width="2" height="2"></rect>
+                    </g>
+                    <g id="Head" transform="translate(11.000000, 7.000000)">
+                        <rect id="Rectangle-19" fill="#FDECDC" x="0" y="0" width="22" height="24"></rect>
+                        <rect id="Rectangle-144" fill="#609EE5" x="15" y="10" width="5" height="2"></rect>
+                        <rect id="Rectangle-144-Copy" fill="#FFFFFF" x="7" y="16" width="4" height="4"></rect>
+                        <rect id="Rectangle-20-Copy" fill="#FDECDC" x="22" y="10" width="2" height="6"></rect>
+                        <rect id="Rectangle-22" fill="#FDECDC" x="2" y="24" width="18" height="2"></rect>
+                        <rect id="Rectangle-23" fill="#FDECDC" x="4" y="26" width="12" height="6"></rect>
+                        <rect id="Rectangle-20-Copy-2" fill="#D0011B" x="17" y="22" width="5" height="2"></rect>
+                    </g>
+                    <g id="Hair" transform="translate(2.000000, 0.000000)">
+                        <rect id="Rectangle-24" fill="#F8E81C" x="8" y="4" width="26" height="5"></rect>
+                        <rect id="Rectangle-26" fill="#F8E81C" x="2" y="9" width="16" height="8"></rect>
+                        <rect id="Rectangle-27" fill="#F8E81C" x="0" y="17" width="16" height="8"></rect>
+                        <rect id="Rectangle-28" fill="#F8E81C" x="4" y="25" width="8" height="13"></rect>
+                        <rect id="Rectangle-25" fill="#F8E81C" x="13" y="0" width="16" height="4"></rect>
+                        <rect id="Rectangle-145-Copy-4" fill="#D7C917" x="22" y="4" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-12" fill="#D7C917" x="26" y="6" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-5" fill="#D7C917" x="15" y="6" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-6" fill="#D7C917" x="14" y="10" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-7" fill="#D7C917" x="9" y="12" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-8" fill="#D7C917" x="12" y="15" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-9" fill="#D7C917" x="8" y="19" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-10" fill="#D7C917" x="12" y="21" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-11" fill="#D7C917" x="9" y="26" width="2" height="2"></rect>
+                    </g>
+                </g>
+                <g id="Frame-one-Copy">
+                    <g id="Pants" transform="translate(7.000000, 65.000000)">
+                        <rect id="Rectangle-1" fill="#FDECDC" x="8" y="10" width="8" height="28"></rect>
+                        <rect id="Rectangle-2-Copy-8" fill="#D0011B" x="1" y="4" width="20" height="3"></rect>
+                        <rect id="Rectangle-2-Copy-5" fill="#D0011B" x="2" y="2" width="18" height="2"></rect>
+                        <rect id="Rectangle-2-Copy-9" fill="#D0011B" x="3" y="0" width="17" height="2"></rect>
+                        <rect id="Rectangle-2-Copy-2" fill="#D0011B" x="0" y="20" width="22" height="3"></rect>
+                        <rect id="Rectangle-2-Copy-3" fill="#D0011B" x="1" y="17" width="21" height="3"></rect>
+                        <rect id="Rectangle-2-Copy-7" fill="#D0011B" x="2" y="14" width="20" height="3"></rect>
+                        <rect id="Rectangle-2-Copy-4" fill="#D0011B" x="3" y="10" width="18" height="4"></rect>
+                        <rect id="Rectangle-2-Copy-11" fill="#D0011B" x="2" y="7" width="19" height="3"></rect>
+                    </g>
+                    <g id="Shirt" transform="translate(9.000000, 39.000000)">
+                        <rect id="Rectangle-4" fill="#D0011B" x="0" y="4" width="18" height="15"></rect>
+                        <rect id="Rectangle-5" fill="#D0011B" x="4" y="0" width="12" height="4"></rect>
+                        <rect id="Rectangle-6" fill="#610410" x="4" y="10" width="12" height="2"></rect>
+                        <rect id="Rectangle-6-Copy" fill="#610410" x="4" y="0" width="12" height="2"></rect>
+                        <rect id="Rectangle-17" fill="#D0011B" x="2" y="2" width="2" height="2"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#D0011B" x="16" y="2" width="2" height="2"></rect>
+                        <rect id="Rectangle-17-Copy-2" fill="#D0011B" x="18" y="8" width="2" height="9"></rect>
+                        <rect id="Rectangle-17-Copy-3" fill="#D0011B" x="20" y="9" width="2" height="7"></rect>
+                        <rect id="Rectangle-2-Copy-6" fill="#D0011B" x="2" y="21" width="16" height="6"></rect>
+                        <rect id="Rectangle-2-Copy-10" fill="#D0011B" x="1" y="19" width="17" height="2"></rect>
+                    </g>
+                    <g id="Arm" transform="translate(17.000000, 51.000000)" fill="#FDECDC">
+                        <rect id="Rectangle-8" x="0" y="0" width="6" height="20"></rect>
+                        <rect id="Rectangle-9" x="0" y="20" width="10" height="4"></rect>
+                    </g>
+                    <g id="Head" transform="translate(9.000000, 7.000000)">
+                        <rect id="Rectangle-19" fill="#FDECDC" x="0" y="0" width="22" height="24"></rect>
+                        <rect id="Rectangle-144" fill="#609EE5" x="15" y="10" width="5" height="2"></rect>
+                        <rect id="Rectangle-144-Copy" fill="#FFFFFF" x="7" y="16" width="4" height="4"></rect>
+                        <rect id="Rectangle-20-Copy" fill="#FDECDC" x="22" y="10" width="2" height="6"></rect>
+                        <rect id="Rectangle-22" fill="#FDECDC" x="2" y="24" width="18" height="2"></rect>
+                        <rect id="Rectangle-23" fill="#FDECDC" x="4" y="26" width="12" height="6"></rect>
+                        <rect id="Rectangle-20-Copy-2" fill="#D0011B" x="17" y="22" width="5" height="2"></rect>
+                    </g>
+                    <g id="Shoe" transform="translate(15.000000, 103.000000)" fill="#000000">
+                        <rect id="Rectangle-11" x="0" y="0" width="11" height="2"></rect>
+                        <rect id="Rectangle-11-Copy" x="0" y="2" width="15" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-12" x="6" y="4" width="11" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-2" x="0" y="4" width="3" height="2"></rect>
+                    </g>
+                    <g id="Hair">
+                        <rect id="Rectangle-24" fill="#F8E81C" x="8" y="4" width="26" height="5"></rect>
+                        <rect id="Rectangle-26" fill="#F8E81C" x="2" y="9" width="16" height="8"></rect>
+                        <rect id="Rectangle-27" fill="#F8E81C" x="0" y="17" width="16" height="8"></rect>
+                        <rect id="Rectangle-28" fill="#F8E81C" x="4" y="25" width="8" height="13"></rect>
+                        <rect id="Rectangle-25" fill="#F8E81C" x="13" y="0" width="16" height="4"></rect>
+                        <rect id="Rectangle-145-Copy-4" fill="#D7C917" x="22" y="4" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-12" fill="#D7C917" x="26" y="6" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-5" fill="#D7C917" x="15" y="6" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-6" fill="#D7C917" x="14" y="10" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-7" fill="#D7C917" x="9" y="12" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-8" fill="#D7C917" x="12" y="15" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-9" fill="#D7C917" x="8" y="19" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-10" fill="#D7C917" x="12" y="21" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-11" fill="#D7C917" x="9" y="26" width="2" height="2"></rect>
+                    </g>
+                </g>
+            </g>
+            <g id="Left" transform="translate(15.000000, 111.000000)">
+                <g id="Frame-four" transform="translate(260.500000, 54.500000) scale(-1, 1) translate(-260.500000, -54.500000) translate(239.000000, 0.000000)">
+                    <g id="Pants" transform="translate(18.000000, 75.000000)">
+                        <g id="right-leg">
+                            <rect id="Rectangle-1" fill="#FDECDC" x="0" y="11" width="8" height="17"></rect>
+                            <rect id="Rectangle-1-Copy-31" fill="#D0011B" x="0" y="0" width="12" height="11"></rect>
+                            <rect id="Rectangle-1-Copy-32" fill="#D0011B" x="0" y="11" width="4" height="3"></rect>
+                            <rect id="Rectangle-1-Copy-33" fill="#D0011B" x="4" y="10" width="4" height="2"></rect>
+                        </g>
+                    </g>
+                    <g id="Shirt" transform="translate(12.000000, 39.000000)">
+                        <rect id="Rectangle-4" fill="#D0011B" x="0" y="4" width="18" height="15"></rect>
+                        <rect id="Rectangle-5" fill="#D0011B" x="4" y="0" width="12" height="4"></rect>
+                        <rect id="Rectangle-6" fill="#610410" x="4" y="10" width="12" height="2"></rect>
+                        <rect id="Rectangle-6-Copy" fill="#610410" x="4" y="0" width="12" height="2"></rect>
+                        <rect id="Rectangle-17" fill="#D0011B" x="2" y="2" width="2" height="2"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#D0011B" x="16" y="2" width="2" height="2"></rect>
+                        <rect id="Rectangle-17-Copy-2" fill="#D0011B" x="18" y="8" width="2" height="9"></rect>
+                        <rect id="Rectangle-17-Copy-3" fill="#D0011B" x="20" y="9" width="2" height="7"></rect>
+                        <rect id="Rectangle-2-Copy-6" fill="#D0011B" x="2" y="21" width="16" height="6"></rect>
+                        <rect id="Rectangle-2-Copy-10" fill="#D0011B" x="1" y="19" width="17" height="2"></rect>
+                    </g>
+                    <g id="Arm" transform="translate(18.000000, 51.000000)" fill="#FDECDC">
+                        <rect id="Rectangle-8-Copy-4" x="9" y="10" width="4" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-5" x="13" y="9" width="4" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-6" x="17" y="9" width="4" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-7" x="21" y="5" width="4" height="7"></rect>
+                        <rect id="Rectangle-8-Copy" x="0" y="0" width="6" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-2" x="1" y="4" width="6" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-3" x="3" y="8" width="6" height="4"></rect>
+                    </g>
+                    <g id="Left-leg" transform="translate(0.000000, 75.000000)">
+                        <g id="Shoe" transform="translate(18.000000, 28.000000)" fill="#000000">
+                            <rect id="Rectangle-11" x="0" y="0" width="11" height="2"></rect>
+                            <rect id="Rectangle-11-Copy" x="0" y="2" width="15" height="2"></rect>
+                            <rect id="Rectangle-11-Copy-12" x="6" y="4" width="11" height="2"></rect>
+                            <rect id="Rectangle-11-Copy-2" x="0" y="4" width="3" height="2"></rect>
+                        </g>
+                        <g id="Shoe-Copy" transform="translate(3.000000, 16.500000) rotate(-270.000000) translate(-3.000000, -16.500000) translate(-5.500000, 13.500000)" fill="#000000">
+                            <rect id="Rectangle-11" x="0" y="0" width="11" height="2"></rect>
+                            <rect id="Rectangle-11-Copy" x="0" y="2" width="15" height="2"></rect>
+                            <rect id="Rectangle-11-Copy-12" x="6" y="4" width="11" height="2"></rect>
+                            <rect id="Rectangle-11-Copy-2" x="0" y="4" width="3" height="2"></rect>
+                        </g>
+                        <rect id="Rectangle-181" fill="#D0011B" x="14" y="0" width="4" height="16"></rect>
+                        <rect id="Rectangle-181-Copy-3" fill="#D0011B" x="14" y="0" width="4" height="16"></rect>
+                        <rect id="Rectangle-181-Copy-4" fill="#D0011B" x="11" y="0" width="3" height="8"></rect>
+                        <rect id="Rectangle-181-Copy-5" fill="#D0011B" x="10" y="7" width="4" height="8"></rect>
+                        <rect id="Rectangle-181-Copy-2" fill="#FDECDC" x="6" y="8" width="4" height="8"></rect>
+                    </g>
+                    <g id="Butt" transform="translate(11.000000, 65.000000)" fill="#D0011B">
+                        <rect id="Rectangle-2-Copy-8" x="0" y="4" width="20" height="3"></rect>
+                        <rect id="Rectangle-2-Copy-5" x="1" y="2" width="18" height="2"></rect>
+                        <rect id="Rectangle-2-Copy-12" x="2" y="0" width="17" height="2"></rect>
+                        <rect id="Rectangle-2-Copy-11" x="1" y="7" width="19" height="3"></rect>
+                    </g>
+                    <g id="Head" transform="translate(12.000000, 7.000000)">
+                        <rect id="Rectangle-19" fill="#FDECDC" x="0" y="0" width="22" height="24"></rect>
+                        <rect id="Rectangle-144" fill="#609EE5" x="15" y="10" width="5" height="2"></rect>
+                        <rect id="Rectangle-144-Copy" fill="#FFFFFF" x="7" y="16" width="4" height="4"></rect>
+                        <rect id="Rectangle-20-Copy" fill="#FDECDC" x="22" y="10" width="2" height="6"></rect>
+                        <rect id="Rectangle-22" fill="#FDECDC" x="2" y="24" width="18" height="2"></rect>
+                        <rect id="Rectangle-23" fill="#FDECDC" x="4" y="26" width="12" height="6"></rect>
+                        <rect id="Rectangle-20-Copy-2" fill="#D0011B" x="17" y="22" width="5" height="2"></rect>
+                    </g>
+                    <g id="Hair" transform="translate(3.000000, 0.000000)">
+                        <rect id="Rectangle-24" fill="#F8E81C" x="8" y="4" width="26" height="5"></rect>
+                        <rect id="Rectangle-26" fill="#F8E81C" x="2" y="9" width="16" height="8"></rect>
+                        <rect id="Rectangle-27" fill="#F8E81C" x="0" y="17" width="16" height="8"></rect>
+                        <rect id="Rectangle-28" fill="#F8E81C" x="4" y="25" width="8" height="13"></rect>
+                        <rect id="Rectangle-25" fill="#F8E81C" x="13" y="0" width="16" height="4"></rect>
+                        <rect id="Rectangle-145-Copy-4" fill="#D7C917" x="22" y="4" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-12" fill="#D7C917" x="26" y="6" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-5" fill="#D7C917" x="15" y="6" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-6" fill="#D7C917" x="14" y="10" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-7" fill="#D7C917" x="9" y="12" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-8" fill="#D7C917" x="12" y="15" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-9" fill="#D7C917" x="8" y="19" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-10" fill="#D7C917" x="12" y="21" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-11" fill="#D7C917" x="9" y="26" width="2" height="2"></rect>
+                    </g>
+                </g>
+                <g id="Frame-two" transform="translate(98.500000, 54.500000) scale(-1, 1) translate(-98.500000, -54.500000) translate(80.000000, 0.000000)">
+                    <g id="Pants" transform="translate(8.000000, 65.000000)">
+                        <g id="Left-leg" transform="translate(1.000000, 10.000000)">
+                            <rect id="Rectangle-1-Copy" fill="#FDECDC" x="2" y="20" width="8" height="5"></rect>
+                            <rect id="Rectangle-1-Copy-27" fill="#FDECDC" x="1" y="25" width="8" height="3"></rect>
+                            <rect id="Rectangle-1-Copy-2" fill="#FDECDC" x="3" y="15" width="8" height="5"></rect>
+                            <rect id="Rectangle-1" fill="#D0011B" x="0" y="7" width="21" height="8"></rect>
+                            <rect id="Rectangle-1-Copy-26" fill="#D0011B" x="1" y="0" width="19" height="8"></rect>
+                        </g>
+                        <g id="Right-leg" transform="translate(12.000000, 12.000000)">
+                            <rect id="Rectangle-1-Copy-3" fill="#FDECDC" x="7" y="18" width="4" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-4" fill="#FDECDC" x="5" y="16" width="6" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-5" fill="#FDECDC" x="4" y="14" width="8" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-6" fill="#FDECDC" x="7" y="12" width="8" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-7" fill="#FDECDC" x="7" y="10" width="9" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-24" fill="#D0011B" x="7" y="10" width="5" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-8" fill="#FDECDC" x="6" y="8" width="10" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-25" fill="#D0011B" x="6" y="8" width="8" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-9" fill="#D0011B" x="5" y="6" width="12" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-10" fill="#D0011B" x="3" y="4" width="13" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-11" fill="#D0011B" x="1" y="2" width="13" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-12" fill="#4990E2" x="0" y="0" width="12" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-13" fill="#D0011B" x="0" y="0" width="12" height="2"></rect>
+                        </g>
+                        <g id="Butt" fill="#D0011B">
+                            <rect id="Rectangle-14-Copy" x="13" y="10" width="9" height="2"></rect>
+                            <rect id="Rectangle-2-Copy-8" x="0" y="4" width="20" height="3"></rect>
+                            <rect id="Rectangle-2-Copy-5" x="1" y="2" width="18" height="2"></rect>
+                            <rect id="Rectangle-2-Copy-12" x="2" y="0" width="17" height="2"></rect>
+                            <rect id="Rectangle-2-Copy-11" x="1" y="7" width="19" height="3"></rect>
+                        </g>
+                    </g>
+                    <g id="Shirt" transform="translate(9.000000, 39.000000)">
+                        <rect id="Rectangle-4" fill="#D0011B" x="0" y="4" width="18" height="15"></rect>
+                        <rect id="Rectangle-5" fill="#D0011B" x="4" y="0" width="12" height="4"></rect>
+                        <rect id="Rectangle-6" fill="#610410" x="4" y="10" width="12" height="2"></rect>
+                        <rect id="Rectangle-6-Copy" fill="#610410" x="4" y="0" width="12" height="2"></rect>
+                        <rect id="Rectangle-17" fill="#D0011B" x="2" y="2" width="2" height="2"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#D0011B" x="16" y="2" width="2" height="2"></rect>
+                        <rect id="Rectangle-17-Copy-2" fill="#D0011B" x="18" y="8" width="2" height="9"></rect>
+                        <rect id="Rectangle-17-Copy-3" fill="#D0011B" x="20" y="9" width="2" height="7"></rect>
+                        <rect id="Rectangle-2-Copy-6" fill="#D0011B" x="2" y="21" width="16" height="6"></rect>
+                        <rect id="Rectangle-2-Copy-10" fill="#D0011B" x="1" y="19" width="17" height="2"></rect>
+                    </g>
+                    <g id="Arm" transform="translate(11.000000, 51.000000)" fill="#FDECDC">
+                        <rect id="Rectangle-8" x="0" y="16" width="6" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-4" x="2" y="12" width="6" height="4"></rect>
+                        <rect id="Rectangle-8-Copy" x="6" y="0" width="6" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-2" x="5" y="4" width="6" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-3" x="3" y="8" width="6" height="4"></rect>
+                        <rect id="Rectangle-9" x="0" y="20" width="10" height="4"></rect>
+                    </g>
+                    <g id="Shoe" transform="translate(9.000000, 103.000000)" fill="#000000">
+                        <rect id="Rectangle-11" x="0" y="0" width="11" height="2"></rect>
+                        <rect id="Rectangle-11-Copy" x="0" y="2" width="15" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-12" x="6" y="4" width="11" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-2" x="0" y="4" width="3" height="2"></rect>
+                    </g>
+                    <g id="Right-shoe" transform="translate(21.000000, 93.000000)" fill="#000000">
+                        <rect id="Rectangle-72" x="0" y="0" width="6" height="2"></rect>
+                        <rect id="Rectangle-77-Copy" x="0" y="4" width="3" height="3"></rect>
+                        <rect id="Rectangle-77-Copy-2" x="4" y="6" width="2" height="2"></rect>
+                        <rect id="Rectangle-77-Copy-3" x="6" y="8" width="2" height="2"></rect>
+                        <rect id="Rectangle-72-Copy" x="0" y="2" width="8" height="2"></rect>
+                        <rect id="Rectangle-72-Copy-2" x="4" y="4" width="6" height="2"></rect>
+                        <rect id="Rectangle-72-Copy-3" x="6" y="6" width="6" height="2"></rect>
+                        <rect id="Rectangle-72-Copy-4" x="8" y="8" width="7" height="2"></rect>
+                    </g>
+                    <g id="Head" transform="translate(9.000000, 7.000000)">
+                        <rect id="Rectangle-19" fill="#FDECDC" x="0" y="0" width="22" height="24"></rect>
+                        <rect id="Rectangle-144" fill="#609EE5" x="15" y="10" width="5" height="2"></rect>
+                        <rect id="Rectangle-144-Copy" fill="#FFFFFF" x="7" y="16" width="4" height="4"></rect>
+                        <rect id="Rectangle-20-Copy" fill="#FDECDC" x="22" y="10" width="2" height="6"></rect>
+                        <rect id="Rectangle-22" fill="#FDECDC" x="2" y="24" width="18" height="2"></rect>
+                        <rect id="Rectangle-23" fill="#FDECDC" x="4" y="26" width="12" height="6"></rect>
+                        <rect id="Rectangle-20-Copy-2" fill="#D0011B" x="17" y="22" width="5" height="2"></rect>
+                    </g>
+                    <g id="Hair">
+                        <rect id="Rectangle-24" fill="#F8E81C" x="8" y="4" width="26" height="5"></rect>
+                        <rect id="Rectangle-26" fill="#F8E81C" x="2" y="9" width="16" height="8"></rect>
+                        <rect id="Rectangle-27" fill="#F8E81C" x="0" y="17" width="16" height="8"></rect>
+                        <rect id="Rectangle-28" fill="#F8E81C" x="4" y="25" width="8" height="13"></rect>
+                        <rect id="Rectangle-25" fill="#F8E81C" x="13" y="0" width="16" height="4"></rect>
+                        <rect id="Rectangle-145-Copy-4" fill="#D7C917" x="22" y="4" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-12" fill="#D7C917" x="26" y="6" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-5" fill="#D7C917" x="15" y="6" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-6" fill="#D7C917" x="14" y="10" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-7" fill="#D7C917" x="9" y="12" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-8" fill="#D7C917" x="12" y="15" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-9" fill="#D7C917" x="8" y="19" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-10" fill="#D7C917" x="12" y="21" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-11" fill="#D7C917" x="9" y="26" width="2" height="2"></rect>
+                    </g>
+                </g>
+                <g id="Frame-three" transform="translate(182.000000, 54.500000) scale(-1, 1) translate(-182.000000, -54.500000) translate(158.000000, 0.000000)">
+                    <g id="Pants" transform="translate(3.000000, 69.000000)">
+                        <g id="Left-leg" transform="translate(0.000000, 6.000000)">
+                            <rect id="Rectangle-1" fill="#D0011B" x="8" y="0" width="12" height="6"></rect>
+                            <rect id="Rectangle-1-Copy-14" fill="#D0011B" x="6" y="6" width="16" height="3"></rect>
+                            <rect id="Rectangle-1-Copy-15" fill="#D0011B" x="4" y="9" width="12" height="3"></rect>
+                            <rect id="Rectangle-1-Copy-28" fill="#D0011B" x="11" y="8" width="12" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-16" fill="#FDECDC" x="5" y="12" width="8" height="3"></rect>
+                            <rect id="Rectangle-1-Copy-17" fill="#FDECDC" x="3" y="15" width="8" height="3"></rect>
+                            <rect id="Rectangle-1-Copy-23" fill="#FDECDC" x="0" y="22" width="7" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-30" fill="#FDECDC" x="0" y="24" width="7" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-18" fill="#FDECDC" x="1" y="18" width="8" height="4"></rect>
+                        </g>
+                        <g id="Right-leg" transform="translate(18.000000, 8.000000)">
+                            <rect id="Rectangle-1-Copy-7" fill="#FDECDC" x="5" y="10" width="10" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-19" fill="#FDECDC" x="6" y="12" width="10" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-20" fill="#FDECDC" x="8" y="14" width="9" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-21" fill="#FDECDC" x="9" y="16" width="9" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-22" fill="#FDECDC" x="11" y="18" width="5" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-8" fill="#FDECDC" x="4" y="8" width="10" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-9" fill="#FDECDC" x="4" y="6" width="9" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-29" fill="#D0011B" x="4" y="6" width="7" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-10" fill="#D0011B" x="2" y="4" width="12" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-11" fill="#D0011B" x="1" y="2" width="12" height="2"></rect>
+                            <rect id="Rectangle-1-Copy-13" fill="#D0011B" x="0" y="0" width="12" height="2"></rect>
+                        </g>
+                        <g id="Butt" transform="translate(8.000000, 0.000000)">
+                            <rect id="Rectangle-2-Copy" fill="#4990E2" x="0" y="0" width="20" height="6"></rect>
+                            <rect id="Rectangle-14-Copy" fill="#D0011B" x="12" y="6" width="8" height="2"></rect>
+                            <rect id="Rectangle-2" fill="#D0011B" x="0" y="0" width="20" height="6"></rect>
+                        </g>
+                    </g>
+                    <g id="Shirt" transform="translate(11.000000, 39.000000)">
+                        <rect id="Rectangle-4" fill="#D0011B" x="0" y="4" width="18" height="15"></rect>
+                        <rect id="Rectangle-5" fill="#D0011B" x="4" y="0" width="12" height="4"></rect>
+                        <rect id="Rectangle-6" fill="#610410" x="4" y="10" width="12" height="2"></rect>
+                        <rect id="Rectangle-6-Copy" fill="#610410" x="4" y="0" width="12" height="2"></rect>
+                        <rect id="Rectangle-17" fill="#D0011B" x="2" y="2" width="2" height="2"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#D0011B" x="16" y="2" width="2" height="2"></rect>
+                        <rect id="Rectangle-17-Copy-2" fill="#D0011B" x="18" y="8" width="2" height="9"></rect>
+                        <rect id="Rectangle-17-Copy-3" fill="#D0011B" x="20" y="9" width="2" height="7"></rect>
+                        <rect id="Rectangle-2-Copy-6" fill="#D0011B" x="2" y="21" width="16" height="6"></rect>
+                        <rect id="Rectangle-2-Copy-10" fill="#D0011B" x="1" y="19" width="17" height="2"></rect>
+                    </g>
+                    <g id="Butt" transform="translate(10.000000, 65.000000)" fill="#D0011B">
+                        <rect id="Rectangle-14-Copy" x="13" y="10" width="9" height="2"></rect>
+                        <rect id="Rectangle-2-Copy-8" x="0" y="4" width="20" height="3"></rect>
+                        <rect id="Rectangle-2-Copy-5" x="1" y="2" width="18" height="2"></rect>
+                        <rect id="Rectangle-2-Copy-12" x="2" y="0" width="17" height="2"></rect>
+                        <rect id="Rectangle-2-Copy-11" x="1" y="7" width="19" height="3"></rect>
+                    </g>
+                    <g id="Arm" transform="translate(19.000000, 51.000000)" fill="#FDECDC">
+                        <rect id="Rectangle-8" x="7" y="16" width="6" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-4" x="5" y="12" width="6" height="4"></rect>
+                        <rect id="Rectangle-8-Copy" x="0" y="0" width="6" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-2" x="1" y="4" width="6" height="4"></rect>
+                        <rect id="Rectangle-8-Copy-3" x="3" y="8" width="6" height="4"></rect>
+                        <rect id="Rectangle-9" x="7" y="20" width="10" height="4"></rect>
+                    </g>
+                    <g id="Shoe" transform="translate(0.000000, 99.000000)" fill="#000000">
+                        <rect id="Rectangle-11-Copy-3" x="2" y="2" width="10" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-4" x="5" y="4" width="9" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-6" x="7" y="6" width="9" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-7" x="9" y="8" width="7" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-9" x="1" y="4" width="3" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-13" x="0" y="6" width="3" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-16" x="2" y="0" width="2" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-17" x="4" y="0" width="2" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-10" x="7" y="6" width="2" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-11" x="9" y="8" width="10" height="2"></rect>
+                    </g>
+                    <g id="Right-shoe" transform="translate(41.500000, 97.000000) rotate(270.000000) translate(-41.500000, -97.000000) translate(34.500000, 90.500000)" fill="#000000">
+                        <rect id="Rectangle-72" x="3" y="-1.42108547e-14" width="4" height="2"></rect>
+                        <rect id="Rectangle-77-Copy" x="1" y="2" width="4" height="2"></rect>
+                        <rect id="Rectangle-77-Copy-2" x="5" y="7" width="2" height="2"></rect>
+                        <rect id="Rectangle-77-Copy-3" x="7" y="9" width="2" height="2"></rect>
+                        <rect id="Rectangle-77-Copy-4" x="10" y="11" width="4" height="2"></rect>
+                        <rect id="Rectangle-72-Copy" x="4" y="2" width="5" height="3"></rect>
+                        <rect id="Rectangle-72-Copy-2" x="5" y="4" width="5" height="3"></rect>
+                        <rect id="Rectangle-72-Copy-3" x="7" y="6" width="5" height="3"></rect>
+                        <rect id="Rectangle-72-Copy-4" x="9" y="8" width="4" height="3"></rect>
+                        <rect id="Rectangle-77-Copy-6" x="-7.10542736e-15" y="3" width="4" height="2"></rect>
+                        <rect id="Rectangle-77-Copy-7" x="1" y="4" width="2" height="2"></rect>
+                    </g>
+                    <g id="Head" transform="translate(11.000000, 7.000000)">
+                        <rect id="Rectangle-19" fill="#FDECDC" x="0" y="0" width="22" height="24"></rect>
+                        <rect id="Rectangle-144" fill="#609EE5" x="15" y="10" width="5" height="2"></rect>
+                        <rect id="Rectangle-144-Copy" fill="#FFFFFF" x="7" y="16" width="4" height="4"></rect>
+                        <rect id="Rectangle-20-Copy" fill="#FDECDC" x="22" y="10" width="2" height="6"></rect>
+                        <rect id="Rectangle-22" fill="#FDECDC" x="2" y="24" width="18" height="2"></rect>
+                        <rect id="Rectangle-23" fill="#FDECDC" x="4" y="26" width="12" height="6"></rect>
+                        <rect id="Rectangle-20-Copy-2" fill="#D0011B" x="17" y="22" width="5" height="2"></rect>
+                    </g>
+                    <g id="Hair" transform="translate(2.000000, 0.000000)">
+                        <rect id="Rectangle-24" fill="#F8E81C" x="8" y="4" width="26" height="5"></rect>
+                        <rect id="Rectangle-26" fill="#F8E81C" x="2" y="9" width="16" height="8"></rect>
+                        <rect id="Rectangle-27" fill="#F8E81C" x="0" y="17" width="16" height="8"></rect>
+                        <rect id="Rectangle-28" fill="#F8E81C" x="4" y="25" width="8" height="13"></rect>
+                        <rect id="Rectangle-25" fill="#F8E81C" x="13" y="0" width="16" height="4"></rect>
+                        <rect id="Rectangle-145-Copy-4" fill="#D7C917" x="22" y="4" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-12" fill="#D7C917" x="26" y="6" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-5" fill="#D7C917" x="15" y="6" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-6" fill="#D7C917" x="14" y="10" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-7" fill="#D7C917" x="9" y="12" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-8" fill="#D7C917" x="12" y="15" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-9" fill="#D7C917" x="8" y="19" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-10" fill="#D7C917" x="12" y="21" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-11" fill="#D7C917" x="9" y="26" width="2" height="2"></rect>
+                    </g>
+                </g>
+                <g id="Frame-one-Copy" transform="translate(17.000000, 54.500000) scale(-1, 1) translate(-17.000000, -54.500000) ">
+                    <g id="Pants" transform="translate(7.000000, 65.000000)">
+                        <rect id="Rectangle-1" fill="#FDECDC" x="8" y="10" width="8" height="28"></rect>
+                        <rect id="Rectangle-2-Copy-8" fill="#D0011B" x="1" y="4" width="20" height="3"></rect>
+                        <rect id="Rectangle-2-Copy-5" fill="#D0011B" x="2" y="2" width="18" height="2"></rect>
+                        <rect id="Rectangle-2-Copy-9" fill="#D0011B" x="3" y="0" width="17" height="2"></rect>
+                        <rect id="Rectangle-2-Copy-2" fill="#D0011B" x="0" y="20" width="22" height="3"></rect>
+                        <rect id="Rectangle-2-Copy-3" fill="#D0011B" x="1" y="17" width="21" height="3"></rect>
+                        <rect id="Rectangle-2-Copy-7" fill="#D0011B" x="2" y="14" width="20" height="3"></rect>
+                        <rect id="Rectangle-2-Copy-4" fill="#D0011B" x="3" y="10" width="18" height="4"></rect>
+                        <rect id="Rectangle-2-Copy-11" fill="#D0011B" x="2" y="7" width="19" height="3"></rect>
+                    </g>
+                    <g id="Shirt" transform="translate(9.000000, 39.000000)">
+                        <rect id="Rectangle-4" fill="#D0011B" x="0" y="4" width="18" height="15"></rect>
+                        <rect id="Rectangle-5" fill="#D0011B" x="4" y="0" width="12" height="4"></rect>
+                        <rect id="Rectangle-6" fill="#610410" x="4" y="10" width="12" height="2"></rect>
+                        <rect id="Rectangle-6-Copy" fill="#610410" x="4" y="0" width="12" height="2"></rect>
+                        <rect id="Rectangle-17" fill="#D0011B" x="2" y="2" width="2" height="2"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#D0011B" x="16" y="2" width="2" height="2"></rect>
+                        <rect id="Rectangle-17-Copy-2" fill="#D0011B" x="18" y="8" width="2" height="9"></rect>
+                        <rect id="Rectangle-17-Copy-3" fill="#D0011B" x="20" y="9" width="2" height="7"></rect>
+                        <rect id="Rectangle-2-Copy-6" fill="#D0011B" x="2" y="21" width="16" height="6"></rect>
+                        <rect id="Rectangle-2-Copy-10" fill="#D0011B" x="1" y="19" width="17" height="2"></rect>
+                    </g>
+                    <g id="Arm" transform="translate(17.000000, 51.000000)" fill="#FDECDC">
+                        <rect id="Rectangle-8" x="0" y="0" width="6" height="20"></rect>
+                        <rect id="Rectangle-9" x="0" y="20" width="10" height="4"></rect>
+                    </g>
+                    <g id="Head" transform="translate(9.000000, 7.000000)">
+                        <rect id="Rectangle-19" fill="#FDECDC" x="0" y="0" width="22" height="24"></rect>
+                        <rect id="Rectangle-144" fill="#609EE5" x="15" y="10" width="5" height="2"></rect>
+                        <rect id="Rectangle-144-Copy" fill="#FFFFFF" x="7" y="16" width="4" height="4"></rect>
+                        <rect id="Rectangle-20-Copy" fill="#FDECDC" x="22" y="10" width="2" height="6"></rect>
+                        <rect id="Rectangle-22" fill="#FDECDC" x="2" y="24" width="18" height="2"></rect>
+                        <rect id="Rectangle-23" fill="#FDECDC" x="4" y="26" width="12" height="6"></rect>
+                        <rect id="Rectangle-20-Copy-2" fill="#D0011B" x="17" y="22" width="5" height="2"></rect>
+                    </g>
+                    <g id="Shoe" transform="translate(15.000000, 103.000000)" fill="#000000">
+                        <rect id="Rectangle-11" x="0" y="0" width="11" height="2"></rect>
+                        <rect id="Rectangle-11-Copy" x="0" y="2" width="15" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-12" x="6" y="4" width="11" height="2"></rect>
+                        <rect id="Rectangle-11-Copy-2" x="0" y="4" width="3" height="2"></rect>
+                    </g>
+                    <g id="Hair">
+                        <rect id="Rectangle-24" fill="#F8E81C" x="8" y="4" width="26" height="5"></rect>
+                        <rect id="Rectangle-26" fill="#F8E81C" x="2" y="9" width="16" height="8"></rect>
+                        <rect id="Rectangle-27" fill="#F8E81C" x="0" y="17" width="16" height="8"></rect>
+                        <rect id="Rectangle-28" fill="#F8E81C" x="4" y="25" width="8" height="13"></rect>
+                        <rect id="Rectangle-25" fill="#F8E81C" x="13" y="0" width="16" height="4"></rect>
+                        <rect id="Rectangle-145-Copy-4" fill="#D7C917" x="22" y="4" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-12" fill="#D7C917" x="26" y="6" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-5" fill="#D7C917" x="15" y="6" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-6" fill="#D7C917" x="14" y="10" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-7" fill="#D7C917" x="9" y="12" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-8" fill="#D7C917" x="12" y="15" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-9" fill="#D7C917" x="8" y="19" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-10" fill="#D7C917" x="12" y="21" width="2" height="2"></rect>
+                        <rect id="Rectangle-145-Copy-11" fill="#D7C917" x="9" y="26" width="2" height="2"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
