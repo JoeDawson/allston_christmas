@@ -234,7 +234,7 @@ body {
   background-size: 320px auto;
   background-repeat: no-repeat;
 
-  animation: walk-right .45s steps(4, end) infinite, example 5.5s linear 1;
+  animation: walk-right .5s steps(4, end) infinite, example 7s linear 1;
   background-position: 0px -110px;
   .item {
     position: absolute;
@@ -301,7 +301,9 @@ body {
   background-size: 320px auto;
   background-repeat: no-repeat;
   // left:-240px;
-  animation: walk .22s steps(4, end) infinite;
+  animation: walk steps(4, end);
+  animation-duration: .25s;
+  animation-iteration-count: infinite;
   animation-play-state: paused;
   background-position: 0px 0;
 }
