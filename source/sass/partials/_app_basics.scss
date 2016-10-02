@@ -80,6 +80,9 @@ body {
   left:100px;
   margin:auto 0;
   z-index: 1;
+  will-change:transform;
+  transform: translatex(0);
+}
   background-image: url('../siteart/truck.svg');
   background-size: auto 45px;
   background-repeat: no-repeat;
