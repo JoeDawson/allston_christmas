@@ -43,18 +43,7 @@ var pageFunctions = {
       });
 
     },
-    randomizeGap: function() {
-      var self=this;
-      var rando = Math.floor((Math.random() * 80) + 5);
-      // console.log(rando);
-      return rando;
-    },
-    randomizeInterval: function() {
-      var self=this;
-      var rando = Math.floor((Math.random() * 200) + 1);
-      return rando;
-    },
-    randomizeGapSize: function(large, small) {
+    randomize: function(large, small) {
       var rando = Math.floor((Math.random() * large) + small);
       return rando;
     },
