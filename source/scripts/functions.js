@@ -47,20 +47,6 @@ var pageFunctions = {
       var rando = Math.floor((Math.random() * large) + small);
       return rando;
     },
-    setSquareLocation:function () {
-      var self=this;
-
-      var gapOne = document.getElementById('barrier-gap-one');
-      var gapTwo = document.getElementById('barrier-gap-two');
-      setInterval(function() {
-        var randomPosition = self.randomizeGap();
-        gapOne.style.top = randomPosition + '%';
-      }, 8000);
-      setInterval(function() {
-        var randomPosition = self.randomizeGap();
-        gapTwo.style.top = randomPosition + '%';
-      }, 8000);
-    },
     adjustDifficultyLevel: function() {
       var self=this;
 
