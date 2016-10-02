@@ -228,10 +228,8 @@ var pageFunctions = {
         draw();
 
       function myTimer() {
-        var barrierNodes = document.getElementsByClassName('barrier');
 
-        if (barrierNodes) {
-        var nodeArray = Array.prototype.slice.call(barrierNodes);
+        var nodeArray =  Array.prototype.slice.call(document.querySelectorAll('.barrier'));
 
         if (cheat) {
           self.cheatMode(truck, nodeArray)
