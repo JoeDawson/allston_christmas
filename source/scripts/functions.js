@@ -121,18 +121,6 @@ var pageFunctions = {
         timer = setTimeout(function() {
           requestAnimationFrame(draw);
           self.makeBarrier(true);
-    animationListener: function (anim) {
-      var self=this;
-      var gameBoard = document.getElementById('game-board');
-      // var anim = document.getElementById("barrier-two");
-      anim.addEventListener("animationend",function(e){
-          gameBoard.removeChild(anim);
-          // self.spawner();
-      },false);
-      anim.addEventListener("animationstart",function(e){
-          var barrierPos = self.getPosition(anim);
-          // self.spawner(true);
-      },false);
         }, interval / fps);
       }
       if(state){
