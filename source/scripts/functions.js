@@ -152,7 +152,6 @@ var pageFunctions = {
           self.pauseGame();
         }
       }
-
       var cheatCodeArr = [];
 
       document.onkeyup = function(e) {
@@ -257,7 +256,7 @@ var pageFunctions = {
           }
         });
         }
-      }
+      // }
       function myStopFunction() {
         window.clearTimeout(timer);
       }
@@ -287,15 +286,9 @@ var pageFunctions = {
             self.gameStatus.crashCount++;
             barrier.setAttribute('data-crashStatus', 'counted');
             document.getElementById('crash').play();
-
             gameBoard.classList.add('game-board--active');
-
             crashCountBox.innerHTML = 'Bridges hit ' + self.gameStatus.crashCount;
-
             var secDep = 100 - (self.gameStatus.crashCount * 20);
-
-            console.log(secDep);
-
             if (secDep !== 0 && secDep > 0) {
               document.getElementById('security-deposit').innerHTML = 'Percent of security deposit remaining: ' + secDep;
             }
@@ -303,7 +296,6 @@ var pageFunctions = {
         }
 
     },
-    gameStatus: {"barrierCount": 0, "score": 0, "crashCount": 0},
     handlePass: function(barrier) {
       var self=this;
       var score = self.adjustDifficultyLevel().score;
@@ -348,10 +340,8 @@ var pageFunctions = {
           barriersArr.forEach(function(el) {
               el.classList.toggle('paused');
           });
-
-
       }
-    }
+    },
     gameStatus: {"barrierCount": 0, "score": 0, "crashCount": 0},
     patternArr: ['brick_tiles_1.svg', 'brick_tiles_2.svg', 'brick_tiles_3.svg']
   };
