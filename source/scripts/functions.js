@@ -285,10 +285,9 @@ var pageFunctions = {
         var crashCountBox = document.getElementById("crash-counter");
         var crashCount = self.gameStatus.crashCount;
 
-        if (!barrier.classList.contains('counted')) {
+        if (barrier.getAttribute('data-crashStatus') === 'clear') {
             self.gameStatus.crashCount++;
-            barrier.classList.add('counted');
-
+            barrier.setAttribute('data-crashStatus', 'counted');
             document.getElementById('crash').play();
 
             gameBoard.classList.add('game-board--active');
