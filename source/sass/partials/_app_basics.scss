@@ -95,6 +95,7 @@ body {
 }
 .game-square-item--animate {
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  animation-iteration-count: infinite;
 }
 .game-square--animate {
   transition: transform .25s cubic-bezier(.17,.67,.37,1.39);
