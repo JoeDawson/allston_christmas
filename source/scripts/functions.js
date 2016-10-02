@@ -100,11 +100,7 @@ var pageFunctions = {
       barrier.classList.add("barrier");
       barrier.style.backgroundImage = 'url(' + background + ')';
       barrier.style.animationDuration = animationDur;
-
-      if (self.gameStatus.barrierCount === 6 || self.gameStatus.barrierCount === 11 || self.gameStatus.barrierCount === 16 || self.gameStatus.barrierCount === 20) {
-        self.spawner(false);
-        self.spawner(true);
-      }
+      barrier.setAttribute('data-crashStatus', 'clear');
 
       var gap = document.createElement('DIV');
       gap.classList.add('barrier-gap');
@@ -198,14 +194,11 @@ var pageFunctions = {
       var gameBoard = document.getElementById('game-board');
       var startingPosition = 310;
 
-      if (shiftKey) {
-        var moveIncrement = 60;
-      } else if (metaKey) {
-        var moveIncrement = 3;
-      }
-      else {
-        var moveIncrement = 15;
-      }
+      var moveIncrement = shiftKey
+      ? 60
+      : metaKey
+      ? 3:
+      15;
 
       var gameSquarePosition = self.getPosition(gameSquare);
       var gameBoardPosition = self.getPosition(gameBoard);
