@@ -277,8 +277,9 @@ var pageFunctions = {
       document.getElementById('stig-mode').innerHTML = "Stig mode engaged!";
       truck.classList.add('truck-stig-mode')
     },
+    patternRandomizer: function(patterArr) {
       var rando = Math.floor((Math.random() * 3) + 1);
-      return '/siteart/' + backgrounds[rando - 1];
+      return '/siteart/' + patterArr[rando - 1];
     },
     handleCrash: function(barrier) {
         var self=this;
@@ -364,4 +365,5 @@ var pageFunctions = {
 
       }
     }
+    patternArr: ['brick_tiles_1.svg', 'brick_tiles_2.svg', 'brick_tiles_3.svg']
   };
