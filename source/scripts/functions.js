@@ -130,9 +130,7 @@ var pageFunctions = {
       }
     },
     getPosition: function (element) {
-      var elementPosition = element.getBoundingClientRect();
-
-      return elementPosition;
+      return element.getBoundingClientRect();
     },
     handleKeyboardInput: function () {
         var self=this;
