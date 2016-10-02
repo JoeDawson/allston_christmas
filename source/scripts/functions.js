@@ -89,8 +89,8 @@ var pageFunctions = {
 
       var difficultyLevel = self.adjustDifficultyLevel();
 
-      var randomPosition = self.randomizeGap();
-      var background = self.patternRandomizer();
+      var randomPosition = self.randomize(80, 5)
+      var background = self.patternRandomizer(self.patternArr);
       var height = difficultyLevel.gapHeight;
 
       var animationDur = difficultyLevel.animationDur;
