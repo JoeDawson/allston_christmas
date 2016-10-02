@@ -33,6 +33,12 @@ body {
   margin:0 auto;
   display:block
 }
+.btn {
+  border:1px solid red;
+}
+.btn:focus {
+  border:1px solid blue;
+}
 .game-board {
   width:rem(1000);
   height:rem(600);
