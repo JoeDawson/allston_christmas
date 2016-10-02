@@ -292,9 +292,6 @@ var pageFunctions = {
             document.getElementById('crash').play();
 
             gameBoard.classList.add('game-board--active');
-            setTimeout(function(){
-               gameBoard.classList.remove('game-board--active');
-             }, 200);
 
             crashCountBox.innerHTML = 'Bridges hit ' + self.gameStatus.crashCount;
 
