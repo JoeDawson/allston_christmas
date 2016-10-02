@@ -225,7 +225,15 @@ var pageFunctions = {
       var truck = document.getElementById('game-square');
       // ADD THIS BACK TO MAKE IT WORK WITH INTERVALS
 
-      var myVar = setInterval(function(){ myTimer() }, 100);
+        var fps = 60;
+        function draw() {
+          var interval = 1000;
+          timer = setTimeout(function() {
+            requestAnimationFrame(draw);
+            myTimer()
+          }, interval / fps);
+        }
+        draw();
 
       function myTimer() {
         var barrierNodes = document.getElementsByClassName('barrier');
