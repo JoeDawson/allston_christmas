@@ -51,39 +51,35 @@ var pageFunctions = {
       var self=this;
 
       var difficultyLevel = {};
-      var rando = self.randomizeGapSize(200, 1);
+      var rando = self.randomize(200, 1);
 
-      if (self.gameStatus.barrierCount <= 5) {
-        difficultyLevel.animationDur = '3s';
-        difficultyLevel.gapHeight = 45 + self.randomizeGapSize(15, 25);
-        difficultyLevel.score = 50;
-        difficultyLevel.interval = 2500 - rando;
-      }
-      else if (self.gameStatus.barrierCount > 5 && self.gameStatus.barrierCount < 10) {
-        difficultyLevel.animationDur = '2.5s';
-        difficultyLevel.gapHeight = 45 + self.randomizeGapSize(15, 20);
-        difficultyLevel.score = 100;
-        difficultyLevel.interval = 2000 - rando;
-      }
-      else if (self.gameStatus.barrierCount >= 10 && self.gameStatus.barrierCount < 20) {
-        difficultyLevel.animationDur = '2s';
-        difficultyLevel.gapHeight = 40 + self.randomizeGapSize(10, 15);
-        difficultyLevel.score = 150;
-        difficultyLevel.interval = 1600 - rando;
-      }
-      else if (self.gameStatus.barrierCount >= 20 && self.gameStatus.barrierCount < 20) {
-        difficultyLevel.animationDur = '1.5s';
-        difficultyLevel.gapHeight = 40 + self.randomizeGapSize(5, 10);
-        difficultyLevel.score = 250;
-        difficultyLevel.interval = 900 - rando;
-      }
-      else if (self.gameStatus.barrierCount >= 20) {
-        console.log('20 +');
-        difficultyLevel.animationDur = '1.3s';
-        difficultyLevel.gapHeight = 40 + self.randomizeGapSize(5, 8);
-        difficultyLevel.score = 500;
-        difficultyLevel.interval = 700 - rando;
-      }
+      self.gameStatus.barrierCount <= 5
+      ? (
+        difficultyLevel.animationDur = '2s',
+        difficultyLevel.gapHeight = 45 + self.randomize(15, 25),
+        difficultyLevel.score = 50,
+        difficultyLevel.interval = self.randomize(25000, 20000)
+      ) :
+      self.gameStatus.barrierCount > 5 && self.gameStatus.barrierCount <= 10
+      ? (
+        difficultyLevel.animationDur = '1.75s',
+        difficultyLevel.gapHeight = 45 + self.randomize(15, 20),
+        difficultyLevel.score = 100,
+        difficultyLevel.interval = self.randomize(20000, 15000)
+      ) :
+      self.gameStatus.barrierCount > 10 && self.gameStatus.barrierCount <= 20
+      ? (
+        difficultyLevel.animationDur = '1.25s',
+        difficultyLevel.gapHeight = 40 + self.randomize(10, 15),
+        difficultyLevel.score = 150,
+        difficultyLevel.interval = self.randomize(15000, 10000)
+      ) :
+      (
+        difficultyLevel.animationDur = '1s',
+        difficultyLevel.gapHeight = 40 + self.randomize(5, 8),
+        difficultyLevel.score = 500,
+        difficultyLevel.interval = self.randomize(8000, 5000)
+      );
       return difficultyLevel;
     },
     makeBarrier: function() {
