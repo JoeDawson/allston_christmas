@@ -234,13 +234,7 @@ var pageFunctions = {
         var nodeArray = Array.prototype.slice.call(barrierNodes);
 
         if (cheat) {
-          var cheatGap = nodeArray[0].childNodes[0];
-          var gapSize = (cheatGap.clientHeight - 45);
-          truck.style.top = cheatGap.style.top;
-          truck.style.bottom  = 'auto';
-          truck.style.transform = "translateY(" + gapSize + "px)";
-          document.getElementById('stig-mode').innerHTML = "Stig mode engaged!";
-          truck.classList.add('truck-stig-mode')
+          self.cheatMode(truck, nodeArray)
         }
 
         nodeArray.forEach(function(el) {
@@ -272,6 +266,17 @@ var pageFunctions = {
     },
     patternRandomizer: function() {
       var backgrounds = ['brick_tiles_1.svg', 'brick_tiles_2.svg', 'brick_tiles_3.svg'];
+    cheatMode: function(truck, nodeArray) {
+      var self=this;
+
+      var cheatGap = nodeArray[0].childNodes[0];
+      var gapSize = (cheatGap.clientHeight - 45);
+      truck.style.top = cheatGap.style.top;
+      truck.style.bottom  = 'auto';
+      truck.style.transform = "translateY(" + gapSize + "px)";
+      document.getElementById('stig-mode').innerHTML = "Stig mode engaged!";
+      truck.classList.add('truck-stig-mode')
+    },
       var rando = Math.floor((Math.random() * 3) + 1);
       return '/siteart/' + backgrounds[rando - 1];
     },
