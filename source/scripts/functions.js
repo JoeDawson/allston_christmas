@@ -39,6 +39,7 @@ var pageFunctions = {
         document.getElementById('music').play();
         document.getElementById('truck').play();
         document.getElementById('play').blur();
+        document.querySelector('.game-square-item').classList.add('game-square-item--animate');
       });
 
     },
