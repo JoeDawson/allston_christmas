@@ -6,10 +6,29 @@ var pageFunctions = {
       var self=this;
       this.intializeWatchers(); //listens for clicks
     },
-    intializeWatchers: function () {
+    intializeWatchers: function() {
       var self=this;
-    },
+      var gameBoard = document.querySelector('#game-board');
 
+      gameBoard.addEventListener('transitionend', function(e) {
+        if (e.target.classList.contains('score-box')) {
+          e.target.classList.remove('score-box--active');
+        }
+      });
+      gameBoard.addEventListener('animationend', function(e){
+        if (e.target.classList.contains('game-board--active')) {
+          e.target.classList.remove('game-board--active');
+        }
+        if (e.target && e.target.classList.contains('barrier')) {
+          gameBoard.removeChild(e.target);
+        }
+      });
+      // gameBoard.addEventListener('animationstart', function(e){
+      //   if (e.target && e.target.classList.contains('barrier')) {
+      //     console.log('barrier start');
+      //   }
+      // });
+    },
     initializeGame: function () {
       var self=this;
 
