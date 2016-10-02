@@ -259,7 +259,7 @@ var pageFunctions = {
         }
       }
       function myStopFunction() {
-          clearInterval(myVar);
+        window.clearTimeout(timer);
       }
     },
     patternRandomizer: function() {
