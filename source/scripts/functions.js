@@ -33,13 +33,12 @@ var pageFunctions = {
       var self=this;
 
       document.getElementById('play').addEventListener('click', function() {
-        console.log('click');
         self.handleKeyboardInput();
         self.spawner(true);
         self.barrierStatus(false);
         document.getElementById('music').play();
         document.getElementById('truck').play();
-        document.getElementById('play').focus() = false;
+        document.getElementById('play').blur();
       });
 
     },
