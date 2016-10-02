@@ -109,19 +109,18 @@ var pageFunctions = {
       barrier.appendChild(gap);
       gameBoard.appendChild(barrier);
 
-      self.animationListener(barrier);
       self.adjustDifficultyLevel();
     },
     spawner: function(state) {
       var self=this;
-      if(state){
-        timer = setInterval(function(){
+
+      var fps = 15;
+      var interval = self.adjustDifficultyLevel().interval;
+      function draw(state) {
+        var interval = self.adjustDifficultyLevel().interval;
+        timer = setTimeout(function() {
+          requestAnimationFrame(draw);
           self.makeBarrier(true);
-        },self.adjustDifficultyLevel().interval);
-        }else{
-          clearInterval(timer);
-        }
-    },
     animationListener: function (anim) {
       var self=this;
       var gameBoard = document.getElementById('game-board');
