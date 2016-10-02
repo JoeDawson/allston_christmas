@@ -83,11 +83,18 @@ body {
   will-change:transform;
   transform: translatex(0);
 }
+.game-square-item {
+  width:60px;
+  height:45px;
+  position:absolute;
+  top:0;
+  bottom:0;
   background-image: url('../siteart/truck.svg');
   background-size: auto 45px;
   background-repeat: no-repeat;
-
-  // transform: translatex(0);
+}
+.game-square-item--animate {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
 }
 .game-square--animate {
   transition: transform .25s cubic-bezier(.17,.67,.37,1.39);
@@ -336,4 +343,22 @@ body {
 .criminal.punched {
   opacity: 0;
   transition: 1s opacity cubic-bezier(.93,-0.38,0,1.56);
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translateY(0px);
+  }
+
+  20%, 80% {
+    transform: translateY(0px);
+  }
+
+  30%, 50%, 70% {
+    transform: translateY(-1px);
+  }
+
+  40%, 60% {
+    transform: translateY(1px);
+  }
 }
