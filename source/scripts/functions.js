@@ -360,5 +360,6 @@ var pageFunctions = {
 
       }
     }
+    gameStatus: {"barrierCount": 0, "score": 0, "crashCount": 0},
     patternArr: ['brick_tiles_1.svg', 'brick_tiles_2.svg', 'brick_tiles_3.svg']
   };
