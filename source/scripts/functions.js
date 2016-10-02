@@ -133,6 +133,13 @@ var pageFunctions = {
           var barrierPos = self.getPosition(anim);
           // self.spawner(true);
       },false);
+        }, interval / fps);
+      }
+      if(state){
+        draw();
+      } else {
+        window.clearTimeout(timer);
+      }
     },
     getPosition: function (element) {
       var elementPosition = element.getBoundingClientRect();
