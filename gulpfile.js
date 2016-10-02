@@ -293,7 +293,7 @@ gulp.task('listen', function () {
     });
     // scripts
       gulp.watch(paths.scripts.input).on('change', function(file) {
-      gulp.start('lint');
+      // gulp.start('lint');
       gulp.start('concat');
       // gulp.start('refresh');
     });
