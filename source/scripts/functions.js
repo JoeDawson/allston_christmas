@@ -323,16 +323,11 @@ var pageFunctions = {
       scoreBox.innerHTML = score;
       scoreBox.classList.add('score-box--active');
 
-      setTimeout(function() {
-        scoreBox.innerHTML = '';
-        scoreBox.classList.remove('score-box--active');
-      }, 300);
 
-      if (!barrier.classList.contains('counted')) {
+      if (barrier.getAttribute('data-crashStatus') === 'clear') {
           self.gameStatus.barrierCount++;
           self.gameStatus.score = self.gameStatus.score + score;
-          barrier.classList.add('counted');
-
+          barrier.setAttribute('data-crashStatus', 'counted');
           document.getElementById('score').play();
 
           bridgeCounter.innerHTML = 'Bridges passed ' + self.gameStatus.barrierCount;
