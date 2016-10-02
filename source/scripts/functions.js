@@ -262,8 +262,6 @@ var pageFunctions = {
         window.clearTimeout(timer);
       }
     },
-    patternRandomizer: function() {
-      var backgrounds = ['brick_tiles_1.svg', 'brick_tiles_2.svg', 'brick_tiles_3.svg'];
     cheatMode: function(truck, nodeArray) {
       var self=this;
 
